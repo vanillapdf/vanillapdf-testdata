@@ -275,7 +275,8 @@
     "corpus/Report.pdf": {
       "category": "valid",
       "license": "unknown",
-      "source": "unknown - REVIEW"
+      "source": "MOBILedit Forensic (Compelson) tool output",
+      "note": "Forensic report output kept as a regression fixture: it exposed a parser defect. Contact details in the text are synthetic vendor sample data, not a real handset extraction."
     },
     "corpus/SP_274-2007.pdf": {
       "category": "valid",

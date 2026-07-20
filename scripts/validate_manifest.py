@@ -23,7 +23,7 @@ UNTESTED = {"broken", "analysis"}
 SKIPS = {"process", "save", "edit", "incremental_save"}
 FIELDS = {
     "category", "user_password", "owner_password", "certificate",
-    "skip", "expect", "tested", "source", "license",
+    "skip", "expect", "tested", "source", "license", "note",
 }
 # Paths in the config block that must point at a manifest entry.
 CONFIG_PATHS = ("merge_file", "signing_certificate")

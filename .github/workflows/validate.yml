@@ -16,7 +16,5 @@ jobs:
         with:
           python-version: '3.14'
 
-      # Switch to --strict once the fixtures are imported; until then the
-      # manifest legitimately describes files that are not committed yet.
       - name: Validate manifest
-        run: python scripts/validate_manifest.py
+        run: python scripts/validate_manifest.py --strict
