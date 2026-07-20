@@ -1,0 +1,47 @@
+name: release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0
+
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6.3.0
+        with:
+          python-version: '3.14'
+
+      # A release must not ship a corpus the manifest disagrees with.
+      - name: Validate manifest
+        run: python scripts/validate_manifest.py --strict
+
+      - name: Build archives
+        run: python scripts/build_release.py --summary "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$TAG" --title "$TAG" --notes-file - \
+            dist/corpus.tar.gz dist/broken.tar.gz dist/analysis.tar.gz \
+            dist/SHA256SUMS <<'NOTES'
+          Test fixtures for Vanilla.PDF.
+
+          `corpus.tar.gz` is the only asset the core build needs.
+          `broken.tar.gz` and `analysis.tar.gz` are analysis-only fixtures,
+          never executed by CI — fetch them when investigating parser failures.
+
+          Verify with `sha256sum -c SHA256SUMS`, and pin the hash via
+          `FetchContent_Declare(... URL_HASH SHA256=...)` so a corpus change
+          can never silently alter downstream test results.
+
+          Licensing is per-file and partly unresolved — see `SOURCES.md`.
+          NOTES

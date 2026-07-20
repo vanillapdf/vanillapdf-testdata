@@ -1,0 +1,1665 @@
+{
+  "$schema_version": 1,
+  "config": {
+    "merge_file": "corpus/19005-1_FAQ.PDF",
+    "signing_certificate": "corpus/certificates/TestUser3.pfx"
+  },
+  "files": {
+    "analysis/1TAConvnion839458.2016Cacoal.RO.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/29_portaria_agu_n__402_-_06092012_.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/4o-termo-aditivo-ao-contrato-operacional-especifico-fca-e-mrs.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/Flora2020digital.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/MapaPipe2019.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/Plano_1208925_assinado_Plano_de_trabalho_Espac807o4_0_IFAL_ArapiracaRioLargo_28_05_2020__002_.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/Portaria20nC2BA835_condecine.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/documento-de-interface-de-software-monitriip-dis-v3-0.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/edital-32.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/gabarito-edital-151-2023.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/plano-nacional-educacao-2014-2024-2ed-1.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/portaria-gm-md-no-3-572-de-29-de-junho-de-2022.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/producao-integrada-no-brasil.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/revista_a_defesa.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/rg_2020_fnde.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "analysis/volume1rev2_momento5000_siopproducao_202408292000.pdf": {
+      "category": "analysis",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected real-world sample",
+      "tested": false
+    },
+    "broken/(EN) Samsung UE75NU7172 Manual.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/20131231103232738561744.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/3F4E2F8DB55F4E11A1CB3D7D70FE9F9B85865A23949594914F4DBB8574D02BDA.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/SP800-22b.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/Wilberforce-PUN-05172017.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/bug1020226.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/chinese_names_中文的名字-2.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/g070002ep1.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/issue2391-1.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/issue3371.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "owner_password": "ELXRTQWS",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/issue6010_1.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "owner_password": "abc",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/issue6010_2.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "owner_password": "æøå",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/itext_sample.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/missing_header.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/pr6531_1.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "broken/pr6531_2.pdf": {
+      "category": "broken",
+      "expect": "unknown",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "tested": false
+    },
+    "corpus/19005-1_FAQ.PDF": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/296333333-pdfSample.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/AdobeXMLFormsSamples.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/Castles_SATURN1000.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/Everyday.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/Granizo.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/MPK_SLOVLEX.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/Park-University-USA.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/Report.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/SP_274-2007.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/access2finance_financial_intermediaries_privacy_statement_en.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/accessible_pdf_webinar_session1.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/acro6_cg_ue.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/bps_park_rpk.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/certificate_encrypted_s4.pdf": {
+      "category": "encrypted",
+      "certificate": "corpus/certificates/TestUser3.pfx",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/certificate_encrypted_s5.pdf": {
+      "category": "encrypted",
+      "certificate": "corpus/certificates/TestUser3.pfx",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/certificates/TestUser3.pfx": {
+      "category": "certificate",
+      "license": "internal",
+      "source": "vanillapdf internal (generated test certs)"
+    },
+    "corpus/certificates/Test_2kDSA_SHA256.pfx": {
+      "category": "certificate",
+      "license": "internal",
+      "source": "vanillapdf internal (generated test certs)"
+    },
+    "corpus/certificates/Test_4kRSA_SHA3_512.pfx": {
+      "category": "certificate",
+      "license": "internal",
+      "source": "vanillapdf internal (generated test certs)"
+    },
+    "corpus/certificates/Test_EC384_SHA512.pfx": {
+      "category": "certificate",
+      "license": "internal",
+      "source": "vanillapdf internal (generated test certs)"
+    },
+    "corpus/certificates/Test_ED25519.pfx": {
+      "category": "certificate",
+      "license": "internal",
+      "source": "vanillapdf internal (generated test certs)"
+    },
+    "corpus/certificates/Test_ED448.pfx": {
+      "category": "certificate",
+      "license": "internal",
+      "source": "vanillapdf internal (generated test certs)"
+    },
+    "corpus/custom/Granizo-signed.PDF": {
+      "category": "valid",
+      "license": "internal",
+      "source": "vanillapdf internal"
+    },
+    "corpus/custom/Scan2.pdf": {
+      "category": "valid",
+      "license": "internal",
+      "source": "vanillapdf internal"
+    },
+    "corpus/custom/aspose_trial.pdf": {
+      "category": "valid",
+      "license": "internal",
+      "source": "vanillapdf internal"
+    },
+    "corpus/custom/example_128-aes.pdf": {
+      "category": "encrypted",
+      "license": "internal",
+      "owner_password": "testik",
+      "source": "vanillapdf internal",
+      "user_password": "test"
+    },
+    "corpus/custom/example_128-rc4.pdf": {
+      "category": "encrypted",
+      "license": "internal",
+      "owner_password": "testik",
+      "source": "vanillapdf internal",
+      "user_password": "test"
+    },
+    "corpus/custom/example_40-rc4.pdf": {
+      "category": "encrypted",
+      "license": "internal",
+      "owner_password": "testik",
+      "source": "vanillapdf internal",
+      "user_password": "test"
+    },
+    "corpus/custom/minimalist.pdf": {
+      "category": "valid",
+      "license": "internal",
+      "source": "vanillapdf internal"
+    },
+    "corpus/custom/sample-encrypted-aes-128-rev3.pdf": {
+      "category": "encrypted",
+      "license": "internal",
+      "owner_password": "owner",
+      "source": "vanillapdf internal",
+      "user_password": "user"
+    },
+    "corpus/custom/sample-encrypted-aes-40-rev2.pdf": {
+      "category": "encrypted",
+      "license": "internal",
+      "owner_password": "owner",
+      "source": "vanillapdf internal",
+      "user_password": "user"
+    },
+    "corpus/custom/sample-encrypted-rc4-128-rev3.pdf": {
+      "category": "encrypted",
+      "license": "internal",
+      "owner_password": "owner",
+      "source": "vanillapdf internal",
+      "user_password": "user"
+    },
+    "corpus/custom/sample-encrypted-rc4-40-rev2.pdf": {
+      "category": "encrypted",
+      "license": "internal",
+      "owner_password": "owner",
+      "source": "vanillapdf internal",
+      "user_password": "user"
+    },
+    "corpus/custom/sample_signed.pdf": {
+      "category": "valid",
+      "license": "internal",
+      "source": "vanillapdf internal"
+    },
+    "corpus/example.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/excerpts.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/guide-to-driving-test.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "skip": [
+        "save"
+      ],
+      "source": "unknown - REVIEW"
+    },
+    "corpus/j130013du1.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/jpdfunit_aShortIntroduction.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/manual-memorias.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/manual.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/parrishfull.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/pdf-association/pdf20examples/PDF-2.0-UTF-8-string-and-annotation.pdf": {
+      "category": "valid",
+      "license": "See SOURCES.md",
+      "source": "PDF Association pdf20examples"
+    },
+    "corpus/pdf-association/pdf20examples/PDF-2.0-image-with-BPC.pdf": {
+      "category": "valid",
+      "license": "See SOURCES.md",
+      "source": "PDF Association pdf20examples"
+    },
+    "corpus/pdf-association/pdf20examples/PDF-2.0-via-incremental-save.pdf": {
+      "category": "valid",
+      "license": "See SOURCES.md",
+      "source": "PDF Association pdf20examples"
+    },
+    "corpus/pdf-association/pdf20examples/PDF-2.0-with-offset-start.pdf": {
+      "category": "valid",
+      "license": "See SOURCES.md",
+      "source": "PDF Association pdf20examples"
+    },
+    "corpus/pdf-association/pdf20examples/PDF-2.0-with-page-level-output-intent.pdf": {
+      "category": "valid",
+      "license": "See SOURCES.md",
+      "source": "PDF Association pdf20examples"
+    },
+    "corpus/pdf-association/pdf20examples/Simple-PDF-2.0-file.pdf": {
+      "category": "valid",
+      "license": "See SOURCES.md",
+      "source": "PDF Association pdf20examples"
+    },
+    "corpus/pdf-association/pdf20examples/pdf20-utf8-test.pdf": {
+      "category": "valid",
+      "license": "See SOURCES.md",
+      "source": "PDF Association pdf20examples"
+    },
+    "corpus/pdf-example-encryption.original.pdf": {
+      "category": "encrypted",
+      "license": "unknown",
+      "owner_password": "test",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/pdf-example-password.original.pdf": {
+      "category": "encrypted",
+      "license": "unknown",
+      "source": "unknown - REVIEW",
+      "user_password": "test"
+    },
+    "corpus/pdf-test.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/pdf.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/pdfSample.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/pdf_open_parameters.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/pdfjs/ArabicCIDTrueType.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/IdentityToUnicodeMap_charCodeOf.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/S2.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/TAMReview.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/Test-plusminus.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/ThuluthFeatures.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/TrueType_without_cmap.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/ZapfDingbats.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/alphatrans.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/annotation-border-styles.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/annotation-tx.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/arial_unicode_ab_cidfont.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/arial_unicode_en_cidfont.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/asciihexdecode.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "skip": [
+        "edit"
+      ],
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/basicapi.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bigboundingbox.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/blendmode.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1001080.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1011159.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1020858.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1027533.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1028735.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1046314.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1050040.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1065245.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1108301.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1151216.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1157493.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1175962.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1186827.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug1200096.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug816075.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug847420.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug850854.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug859204.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug860632.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug864847.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug866395.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug868745.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug878026.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug886717.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug893730.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug894572.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug898853.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug900822.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug903856.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug911034.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug921409.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/bug946506.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/calgray.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/calrgb.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/canvas.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/cid_cff.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/close-path-bug.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/cmykjpeg.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/colorkeymask.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/complex_ttf_font.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/coons-allflags-withfunction.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/devicen.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/endchar.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/extgstate.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/filled-background.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/franz.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/franz_2.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/freeculture.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/german-umlaut-r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/glyph_accent.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/gradientfill.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/helloworld-bad.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1002.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1045.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1055r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1171.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1249.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1293r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1350.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1453.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "skip": [
+        "incremental_save"
+      ],
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1512r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1655r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1905.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue1985.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2074.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2099-1.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2128r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue215.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2176.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2177.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2391-2.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2462.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2537r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2761.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2833.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2840.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2931.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2948.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue2956.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3025.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3061.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3188.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "skip": [
+        "incremental_save"
+      ],
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3205r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3207r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3263r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3323.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3405r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3438.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3458.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3521.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3566.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3584.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3879r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue3885.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4061.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4246.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4304.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4379.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4436r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4461.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4550.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4573.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4575.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4630.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4650.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4665.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4668.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4722.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4800.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4801.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4875.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4881.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4909.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue4934.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5010.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5039.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5044.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5070.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5084.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5138.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5202.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5238.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5244.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5280.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5291.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5334.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5421.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5470.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5475.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5481.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5501.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5540.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5549.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5564_reduced.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5567.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5599.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5677.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5701.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5704.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5734.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5747.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5751.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5801.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5874.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5896.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5909.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "skip": [
+        "process",
+        "save",
+        "edit"
+      ],
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5954.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5972.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue5994.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6006.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6019.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6068.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6069.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6081.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6099.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6106.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6108.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "skip": [
+        "edit"
+      ],
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6113.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6151.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6231_1.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6296.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6336.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6387.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6410.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6413.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6541.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6612.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue6621.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue840.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue845r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue918.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/issue925.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/javauninstall-7r.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/mixedfonts.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/mmtype1.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/noembed-eucjp.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/noembed-identity-2.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/noembed-identity.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/noembed-jis7.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/noembed-sjis.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/openoffice.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/pdfjsbad1586.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/pdfkit_compressed.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/personwithdog.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/pr4922.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/rotated.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/rotation.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/scan-bad.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/shading_extend.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/simpletype3font.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/sizes.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/smaskdim.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/tensor-allflags-withfunction.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/tracemonkey.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/transparency_group.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/type4psfunc.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/vertical.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/xref_command_missing.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdfjs/zerowidthline.pdf": {
+      "category": "valid",
+      "license": "unknown - REVIEW",
+      "source": "Mozilla pdf.js test suite"
+    },
+    "corpus/pdftest2.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/request_for_taxpayer.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/s2010135x20500290.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/sample-encrypted-rc4-40-rev3.pdf": {
+      "category": "encrypted",
+      "license": "unknown",
+      "skip": [
+        "save",
+        "edit",
+        "incremental_save"
+      ],
+      "source": "unknown - REVIEW",
+      "user_password": ""
+    },
+    "corpus/sample.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    },
+    "corpus/statistika-kriminalita-2019.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - REVIEW"
+    }
+  }
+}

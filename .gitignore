@@ -1,0 +1,28 @@
+# This is a data repository. Almost everything tracked here is intentional
+# binary content, so this file stays deliberately small — it exists to keep
+# local scratch out, not to filter test data.
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (validation tooling)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local scratch — use this prefix for files you do not intend to commit
+scratch/
+*.local.*
+
+# Outputs produced by consumers running against this corpus
+out/
+*.out.pdf
