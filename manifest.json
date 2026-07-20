@@ -530,822 +530,822 @@
     },
     "corpus/pdfjs/ArabicCIDTrueType.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/IdentityToUnicodeMap_charCodeOf.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/S2.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/TAMReview.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/Test-plusminus.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/ThuluthFeatures.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/TrueType_without_cmap.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/ZapfDingbats.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/alphatrans.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/annotation-border-styles.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/annotation-tx.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/arial_unicode_ab_cidfont.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/arial_unicode_en_cidfont.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/asciihexdecode.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
+      "license": "See SOURCES.md",
       "skip": [
         "edit"
       ],
-      "source": "Mozilla pdf.js test suite"
+      "source": "mozilla/pdf.js test suite — upstream copy has since changed"
     },
     "corpus/pdfjs/basicapi.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bigboundingbox.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/blendmode.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1001080.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1011159.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1020858.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1027533.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1028735.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1046314.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1050040.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1065245.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1108301.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1151216.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1157493.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1175962.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1186827.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug1200096.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug816075.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug847420.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — upstream copy has since changed"
     },
     "corpus/pdfjs/bug850854.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — upstream copy has since changed"
     },
     "corpus/pdfjs/bug859204.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug860632.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug864847.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug866395.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug868745.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug878026.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — upstream copy has since changed"
     },
     "corpus/pdfjs/bug886717.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug893730.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug894572.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug898853.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug900822.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug903856.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug911034.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug921409.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/bug946506.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/calgray.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/calrgb.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/canvas.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/cid_cff.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/close-path-bug.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/cmykjpeg.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/colorkeymask.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/complex_ttf_font.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/coons-allflags-withfunction.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/devicen.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/endchar.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/extgstate.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — upstream copy has since changed"
     },
     "corpus/pdfjs/filled-background.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/franz.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/franz_2.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/freeculture.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/german-umlaut-r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/glyph_accent.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/gradientfill.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/helloworld-bad.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — upstream copy has since changed"
     },
     "corpus/pdfjs/issue1002.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue1045.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue1055r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue1171.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue1249.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue1293r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue1350.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue1453.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
+      "license": "See SOURCES.md",
       "skip": [
         "incremental_save"
       ],
-      "source": "Mozilla pdf.js test suite"
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue1512r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue1655r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue1905.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue1985.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2074.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2099-1.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2128r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue215.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2176.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2177.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2391-2.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2462.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2537r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2761.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2833.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2840.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2931.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2948.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue2956.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3025.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3061.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3188.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
+      "license": "See SOURCES.md",
       "skip": [
         "incremental_save"
       ],
-      "source": "Mozilla pdf.js test suite"
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3205r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3207r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3263r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3323.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3405r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3438.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3458.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3521.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3566.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3584.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3879r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue3885.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4061.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4246.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4304.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — upstream copy has since changed"
     },
     "corpus/pdfjs/issue4379.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4436r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — upstream copy has since changed"
     },
     "corpus/pdfjs/issue4461.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4550.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4573.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4575.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4630.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4650.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4665.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4668.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4722.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4800.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4801.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4875.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4881.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4909.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue4934.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5010.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5039.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5044.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5070.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5084.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5138.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5202.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5238.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5244.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5280.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5291.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — upstream copy has since changed"
     },
     "corpus/pdfjs/issue5334.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5421.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5470.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5475.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5481.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5501.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5540.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5549.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5564_reduced.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5567.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5599.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5677.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5701.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5704.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5734.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5747.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5751.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5801.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5874.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5896.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5909.pdf": {
       "category": "valid",
@@ -1355,275 +1355,275 @@
         "save",
         "edit"
       ],
-      "source": "Mozilla pdf.js test suite"
+      "source": "mozilla/pdf.js test suite — no longer present upstream"
     },
     "corpus/pdfjs/issue5954.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5972.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue5994.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6006.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6019.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6068.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6069.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6081.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6099.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6106.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6108.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
+      "license": "See SOURCES.md",
       "skip": [
         "edit"
       ],
-      "source": "Mozilla pdf.js test suite"
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6113.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6151.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6231_1.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6296.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6336.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6387.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6410.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6413.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6541.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6612.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue6621.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue840.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue845r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue918.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/issue925.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/javauninstall-7r.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/mixedfonts.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/mmtype1.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/noembed-eucjp.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/noembed-identity-2.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/noembed-identity.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/noembed-jis7.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/noembed-sjis.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/openoffice.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/pdfjsbad1586.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/pdfkit_compressed.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/personwithdog.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/pr4922.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/rotated.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/rotation.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/scan-bad.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/shading_extend.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/simpletype3font.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — upstream copy has since changed"
     },
     "corpus/pdfjs/sizes.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/smaskdim.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/tensor-allflags-withfunction.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/tracemonkey.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/transparency_group.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/type4psfunc.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/vertical.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/xref_command_missing.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdfjs/zerowidthline.pdf": {
       "category": "valid",
-      "license": "unknown - REVIEW",
-      "source": "Mozilla pdf.js test suite"
+      "license": "See SOURCES.md",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
     },
     "corpus/pdftest2.pdf": {
       "category": "valid",

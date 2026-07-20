@@ -14,40 +14,17 @@ These must be resolved before the repository is made public.
 
 | # | Item | Files |
 |---|------|-------|
-| 1 | pdf.js suite licensing — see below | 216 |
-| 2 | Root-level real-world documents, provenance unrecorded | 36 |
-| 3 | `broken/` fixtures, provenance unrecorded | 16 |
-| 4 | `analysis/` fixtures, provenance unrecorded | 16 |
+| 1 | Root-level real-world documents, provenance unrecorded | 36 |
+| 2 | `broken/` fixtures, provenance unrecorded | 16 |
+| 3 | `analysis/` fixtures, provenance unrecorded | 16 |
+| 4 | `corpus/pdfjs/issue5909.pdf` — no longer present upstream | 1 |
 
-### 1. `corpus/pdfjs/` — Mozilla pdf.js test suite
-
-216 files whose filenames follow pdf.js conventions (`bugNNNNNN.pdf`,
-`issueNNNN.pdf`, `prNNNN.pdf`), indicating they came from the
-[pdf.js](https://github.com/mozilla/pdf.js) test suite.
-
-**These are not simply "Apache-2.0".** Apache-2.0 covers the pdf.js *source
-code*. It does not cover the PDFs in its test suite, which were largely attached
-to bug reports by third parties and retain their original owners' rights.
-Upstream pdf.js does not redistribute a significant portion of its own test
-corpus for exactly this reason: those files exist in the repository as `.link`
-stubs pointing at external URLs rather than as committed binaries.
-
-Required before public release:
-
-- Determine which of the 216 are committed upstream and which are `.link`-only.
-  Anything in the second group should be treated as not redistributable here
-  either, and referenced by URL rather than vendored.
-- Record actual terms per file, or narrow the set to files that are clearly
-  redistributable.
-
-Until then these carry `"license": "unknown - REVIEW"` in the manifest.
-
-### 2. Root-level `corpus/*.pdf` — assorted real-world documents
+### 1. Root-level `corpus/*.pdf` — assorted real-world documents
 
 Collected real-world PDFs whose provenance predates this manifest. Each needs a
 source and license confirmed. Checklist below.
 
-### 3. `broken/` — regression fixtures that fail to parse
+### 2. `broken/` — regression fixtures that fail to parse
 
 Files that historically failed to parse, retained for future investigation.
 Never tested, never used as CI inputs. Provenance mostly unknown; several use
@@ -55,7 +32,7 @@ pdf.js / poppler naming and are likely from those suites. Lower risk than the
 tested corpus, since they are not distributed as working examples — but still
 unresolved.
 
-### 4. `analysis/` — large real-world documents
+### 3. `analysis/` — large real-world documents
 
 16 large real-world PDFs migrated from the core repository's
 `test_analysis/`, kept for investigation and profiling. Never tested, never used
@@ -64,6 +41,27 @@ documents; if that holds, most are likely public records, but each still needs
 its terms recorded. Checklist below.
 
 ## Resolved provenance
+
+### `corpus/pdfjs/` — Mozilla pdf.js test suite
+
+216 files copied from [pdf.js](https://github.com/mozilla/pdf.js) (`test/pdfs`).
+
+They are **not** "Apache-2.0" — that covers the pdf.js *source code*, not the
+PDFs in its test suite, many of which came from third-party bug reports. But they
+are files Mozilla itself redistributes. pdf.js commits test PDFs it judges *not*
+redistributable as `.link` stubs pointing at external URLs rather than as
+binaries; upstream currently holds 972 committed PDFs against 459 such stubs, and
+**none of our 216 are `.link`-only**.
+
+Provenance was verified by comparing git blob SHAs against the upstream tree:
+205 byte-identical, 10 drifted since the copy was taken, 1 (`issue5909.pdf`) no
+longer present upstream. Each file records its state in `manifest.json`.
+
+The personal-data scan covered all 216 and found only author-name metadata and a
+single email address — no identifying records — so they are retained.
+
+When taking further fixtures from upstream, apply the same rule: only files
+Mozilla commits as binaries, never `.link` stubs.
 
 ### `corpus/pdf-association/pdf20examples/`
 
