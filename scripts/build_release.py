@@ -23,6 +23,7 @@ wrapping the gzip layer to pin its timestamp.
 import argparse
 import gzip
 import hashlib
+import shutil
 import sys
 import tarfile
 from pathlib import Path
@@ -45,8 +46,9 @@ class Asset(NamedTuple):
         return cls(path, path.stat().st_size, digest)
 
     @property
-    def mib(self) -> float:
-        return self.size / 1024**2
+    def human(self) -> str:
+        mib = self.size / 1024**2
+        return f"{mib:.1f} MiB" if mib >= 1 else f"{self.size / 1024:.0f} KiB"
 
     @property
     def checksum_line(self) -> str:
@@ -55,10 +57,10 @@ class Asset(NamedTuple):
 
     @property
     def summary_row(self) -> str:
-        return f"| `{self.path.name}` | {self.mib:.1f} MiB | `{self.digest}` |"
+        return f"| `{self.path.name}` | {self.human} | `{self.digest}` |"
 
     def __str__(self) -> str:
-        return f"{self.digest}  {self.path.name}  ({self.mib:.1f} MiB)"
+        return f"{self.digest}  {self.path.name}  ({self.human})"
 
 
 def _normalise(info: tarfile.TarInfo) -> tarfile.TarInfo | None:
@@ -76,14 +78,25 @@ def _normalise(info: tarfile.TarInfo) -> tarfile.TarInfo | None:
     return info
 
 
-def build(directory: Path, out: Path) -> Asset:
-    """Write directory to out as a deterministic .tar.gz, streaming as it goes."""
+def build(directory: Path, out: Path, manifest: Path) -> Asset:
+    """Write directory to out as a deterministic .tar.gz, streaming as it goes.
+
+    The manifest ships inside every archive so a downloaded corpus always
+    carries the file describing it — passwords, skip flags and per-file hashes
+    included — and can never desync from the bytes it arrived with.
+
+    Placing it beside the data directory rather than within it also gives the
+    archive two top-level entries. CMake's extraction strips a lone top-level
+    directory, so this is what keeps manifest keys ("corpus/custom/x.pdf")
+    resolving directly against SOURCE_DIR instead of needing a prefix stripped.
+    """
     out.parent.mkdir(parents=True, exist_ok=True)
     with (
         open(out, "wb") as fh,
         gzip.GzipFile(filename="", fileobj=fh, mode="wb", compresslevel=9, mtime=0) as gz,
         tarfile.open(fileobj=gz, mode="w", format=tarfile.GNU_FORMAT) as tar,
     ):
+        tar.add(manifest, arcname=manifest.name, filter=_normalise)
         tar.add(directory, arcname=directory.name, filter=_normalise)
     return Asset.of(out)
 
@@ -108,7 +121,14 @@ def main() -> int:
         sys.exit(f"error: not present under {root}: {', '.join(missing)}. "
                  "The fixtures have not been imported yet.")
 
-    assets = [build(root / name, out / f"{name}.tar.gz") for name in wanted]
+    manifest = root / "manifest.json"
+    assets = [build(root / name, out / f"{name}.tar.gz", manifest) for name in wanted]
+
+    # Also standalone: bindings and configure-time enumeration need the contract
+    # without paying for a 50 MB archive to get at it.
+    shutil.copy2(manifest, out / manifest.name)
+    assets.append(Asset.of(out / manifest.name))
+
     for asset in assets:
         print(asset)
 

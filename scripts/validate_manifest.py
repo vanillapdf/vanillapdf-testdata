@@ -7,11 +7,12 @@ with what is actually committed. This checks both directions.
     python scripts/validate_manifest.py            # consistency only
     python scripts/validate_manifest.py --strict   # also require files on disk
 
---strict fails while the corpus import is still pending; it is the form CI
-should run once the fixtures land.
+--strict additionally verifies every fixture against its recorded sha256, so
+it detects a file edited in place. It is the form CI runs.
 """
 
 import argparse
+import hashlib
 import json
 import sys
 from pathlib import Path
@@ -23,10 +24,15 @@ UNTESTED = {"broken", "analysis"}
 SKIPS = {"process", "save", "edit", "incremental_save"}
 FIELDS = {
     "category", "user_password", "owner_password", "certificate",
-    "skip", "expect", "tested", "source", "license", "note",
+    "skip", "expect", "tested", "source", "license", "note", "sha256",
 }
 # Paths in the config block that must point at a manifest entry.
 CONFIG_PATHS = ("merge_file", "signing_certificate")
+
+
+def digest(path: Path) -> str:
+    with open(path, "rb") as fh:
+        return hashlib.file_digest(fh, "sha256").hexdigest()
 
 
 def discover(root: Path) -> set:
@@ -39,9 +45,10 @@ def discover(root: Path) -> set:
     return found
 
 
-def validate(manifest: dict, on_disk: set, strict: bool) -> list:
+def validate(manifest: dict, root: Path, strict: bool) -> list:
     errors = []
     warnings = []
+    on_disk = discover(root)
 
     files = manifest.get("files")
     if not isinstance(files, dict):
@@ -86,6 +93,16 @@ def validate(manifest: dict, on_disk: set, strict: bool) -> list:
 
         if path not in on_disk:
             (errors if strict else warnings).append(f"{where} no such file")
+            continue
+
+        # The recorded hash is what makes the manifest self-verifying: it catches
+        # a fixture edited in place, corrupted, or mangled by an EOL conversion —
+        # none of which an archive-level checksum would see.
+        recorded = entry.get("sha256")
+        if not recorded:
+            errors.append(f"{where} missing sha256")
+        elif strict and (actual := digest(root / path)) != recorded:
+            errors.append(f"{where} sha256 {actual[:12]}, recorded {recorded[:12]}")
 
     for path in sorted(on_disk - set(files)):
         errors.append(f"{path}: on disk but absent from manifest")
@@ -112,11 +129,11 @@ def main() -> int:
     parser.add_argument("--root", type=Path, default=Path.cwd(),
                         help="repository root (default: current directory)")
     parser.add_argument("--strict", action="store_true",
-                        help="treat missing fixture files as errors")
+                        help="require every file on disk and verify its sha256")
     args = parser.parse_args()
 
     manifest = json.loads((args.root / "manifest.json").read_text(encoding="utf-8"))
-    errors = validate(manifest, discover(args.root), args.strict)
+    errors = validate(manifest, args.root, args.strict)
 
     if errors:
         for line in errors:

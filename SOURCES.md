@@ -117,10 +117,16 @@ Files checked and cleared, so they are not re-examined every review:
 ## Distribution
 
 Fixtures are published as three separate release assets — `corpus.tar.gz`,
-`broken.tar.gz`, `analysis.tar.gz` — rather than one bundle. The core build needs
+`broken.tar.gz`, `analysis.tar.gz` — plus a standalone `manifest.json` and
+`SHA256SUMS`, rather than one bundle. The core build needs
 `corpus/` alone, so a single archive would make every CI run download roughly
 three times what it reads. Each asset carries its own SHA256 in `SHA256SUMS`, so
 consumers pin only what they use.
+
+`manifest.json` ships twice on purpose: inside every archive, where it cannot
+desync from the data and keeps manifest keys resolving directly against the
+extraction root; and standalone, so bindings and configure-time enumeration can
+read the contract without a 50 MB download.
 
 `analysis/` (43 MB) is the least often needed; keeping it a separate asset is
 what stops it from becoming a tax on every build, the way it was while it lived

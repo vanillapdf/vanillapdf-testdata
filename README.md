@@ -59,6 +59,8 @@ Every fixture has an entry keyed by its **repo-relative path**:
 | `skip` | Capabilities to skip: `process`, `save`, `edit`, `incremental_save` |
 | `expect` | For `broken` / `analysis`: expected failure mode (`unknown` until analysed) |
 | `tested` | `false` for `broken` and `analysis` files (never executed by CI) |
+| `sha256` | Digest of the fixture; `--strict` verifies it |
+| `note` | Why the fixture exists, when that is not obvious |
 | `source` / `license` | Provenance — see `SOURCES.md` |
 
 Keys are full paths rather than bare filenames on purpose. The directory carries
@@ -106,12 +108,23 @@ endif()
 Pin `URL_HASH`. Without it a re-cut release changes the fixtures underneath a
 consumer with no signal; with it, CMake refuses to build instead.
 
-**Watch the extracted layout.** The archive contains a single top-level
-`corpus/` directory, and CMake's extraction strips exactly one such level. So
-`${vanillapdf_testdata_SOURCE_DIR}` *is* the corpus root — a fixture is at
-`${vanillapdf_testdata_SOURCE_DIR}/custom/minimalist.pdf`, not
-`.../corpus/custom/minimalist.pdf`. Manifest keys keep their `corpus/` prefix, so
-strip it when resolving against `SOURCE_DIR`.
+Every archive ships `manifest.json` beside its data directory, so after
+extraction manifest keys resolve **directly** against the root:
+
+```
+${vanillapdf_testdata_SOURCE_DIR}/manifest.json
+${vanillapdf_testdata_SOURCE_DIR}/corpus/custom/minimalist.pdf
+```
+
+That layout is deliberate. CMake strips a lone top-level directory during
+extraction, which would leave keys needing their `corpus/` prefix removed; a
+second top-level entry suppresses the strip. Extract several archives into one
+root and the same holds — `corpus/…`, `broken/…` and `analysis/…` all resolve,
+and the bundled manifest can never disagree with the bytes it arrived with.
+
+Enumerate tests from the manifest rather than globbing: it is the authoritative
+list and carries the expectations, and a glob needs a reconfigure to notice a
+new fixture.
 
 Note that the core repo globs fixtures and generates its certificate header at
 **configure** time, so a cold cache makes `cmake` itself network-dependent.
@@ -142,10 +155,21 @@ python scripts/build_release.py           # writes dist/*.tar.gz + SHA256SUMS
 python scripts/build_release.py --only corpus
 ```
 
-Archives are reproducible — identical inputs give a byte-identical file and the
-same SHA256, so re-running a release cannot invalidate the hashes consumers have
-pinned. That is why the script controls tar member metadata and the gzip
-timestamp by hand instead of calling `shutil.make_archive`.
+Archives pin everything that would otherwise vary between checkouts — member
+mtime, uid/gid, mode, ordering, and the gzip header timestamp — so rebuilding on
+the same machine reproduces the same bytes. That is why the script does this by
+hand rather than calling `shutil.make_archive`, which stamps the current time
+into both layers.
+
+**Reproducibility does not extend across platforms.** The DEFLATE stream depends
+on the zlib build: a zlib-ng runtime and stock zlib produce different bytes for
+identical input, so a local rebuild will not match the published `.tar.gz` hash.
+The *uncompressed* tar is identical — verified — so this is a compression-layer
+artifact, not a content difference.
+
+Content integrity therefore does not rest on archive hashes. Every fixture
+carries its own `sha256` in the manifest, which is stable everywhere and is what
+`--strict` verifies. Archive hashes serve `URL_HASH`, i.e. download integrity.
 
 ## Versioning
 
