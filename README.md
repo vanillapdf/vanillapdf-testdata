@@ -7,37 +7,35 @@ This is a **data repository**, not a library. It has no build system. Consumers
 pin it to a tag or commit and read `manifest.json` to learn what each file is
 and how it is expected to behave.
 
-It exists so that cloning the core repository does not drag ~95 MB of PDF
+It exists so that cloning the core repository does not drag ~190 MB of PDF
 fixtures along with it.
 
 > **Licensing is per-file, not per-repository.** The Apache-2.0 grant in
 > `LICENSE.txt` covers this repository's own content — the manifest, docs and
 > scripts — and explicitly does *not* cover the fixtures. See `SOURCES.md`.
 
-## Status
+## Layout
 
-The manifest, licensing and tooling are in place. **The fixture files themselves
-have not been imported yet**, so the data directories do not exist in the tree
-yet. `manifest.json` already describes all 309 expected files, so it is the
-specification the import must satisfy — including which candidates were rejected
-by the personal-data review in `SOURCES.md` and must not be imported.
-
-## Layout (target)
+299 fixtures, 110 MB.
 
 ```
-corpus/          Actively-tested fixtures. Consumed by CI across all bindings.
-  custom/        vanillapdf-authored samples (encryption, signing, minimal)
-  pdfjs/         Files originating from the Mozilla pdf.js test suite
+corpus/    (279)  Actively-tested fixtures. Consumed by CI across all bindings.
+  custom/         vanillapdf-authored samples (encryption, signing, minimal)
+  pdfjs/          Files originating from the Mozilla pdf.js test suite
   pdf-association/pdf20examples/   PDF 2.0 conformance examples
-  certificates/  Test signing certificates (.pfx)
-broken/          Fixtures that fail to parse. NOT tested — kept for future
-                 investigation of parser failures. Do not wire into CI.
-analysis/        Large real-world documents kept for investigation and
-                 profiling. NOT tested. Do not wire into CI.
-manifest.json    Per-file expectations: category, passwords, skip flags, source.
-SOURCES.md       Provenance and per-file licensing, plus open review items.
-scripts/         Validation tooling.
+  certificates/   Test signing certificates (.pfx)
+broken/      (8)  Fixtures the parser cannot yet handle. NOT tested.
+                  Staging — see Promotion in SOURCES.md.
+analysis/   (12)  Large real-world documents for investigation and profiling.
+                  NOT tested. Also staging.
+manifest.json     Per-file expectations: category, passwords, skip flags, source.
+SOURCES.md        Provenance, licensing, personal-data review, promotion rule.
+scripts/          Validation and release tooling.
 ```
+
+`broken/` and `analysis/` are not a dumping ground — they are the queue. As the
+parser matures, fixtures graduate into `corpus/` and start running. `SOURCES.md`
+records what a file must prove to earn promotion.
 
 ## manifest.json
 
@@ -63,10 +61,11 @@ Every fixture has an entry keyed by its **repo-relative path**:
 | `tested` | `false` for `broken` and `analysis` files (never executed by CI) |
 | `source` / `license` | Provenance — see `SOURCES.md` |
 
-Keys are full paths rather than bare filenames on purpose: basenames collide
-across directories (`corpus/manual.pdf` vs `broken/(EN) Samsung UE75NU7172
-Manual.pdf` under case-insensitive comparison), and the old basename-keyed
-config could not express that.
+Keys are full paths rather than bare filenames on purpose. The directory carries
+meaning — it decides whether a fixture is tested — so the same basename can
+legitimately exist in both `corpus/` and `broken/`, which a basename-keyed config
+cannot express. Paths also make promotion a visible change rather than a silent
+one: a file graduating from `broken/` to `corpus/` changes its key.
 
 **Every path in this file — including `config.merge_file` and
 `config.signing_certificate` — resolves against the root of this repository.**
@@ -83,13 +82,13 @@ belonging to any single one.
 | `internal` | Authored by the Vanilla.PDF project; distributable with it |
 | `See SOURCES.md` | Folder-level terms recorded in `SOURCES.md` |
 | `unknown - REVIEW` | **Unresolved.** Must be cleared before this repo is public |
-| `unknown` | Unresolved, on an analysis-only fixture that is never distributed as a test input |
+| `unknown` | Provenance unrecorded — see the review checklists in `SOURCES.md` |
 
 ## Consuming this repo
 
 Fixtures are published as **release assets**, not consumed from git. Each data
 directory is its own archive, so the core build downloads `corpus.tar.gz` alone
-rather than the ~194 MB the full history holds.
+rather than the whole 110 MB repository.
 
 **CMake / C++ core** — fetched at configure time, gated on tests:
 
@@ -130,8 +129,8 @@ python scripts/validate_manifest.py            # schema + internal consistency
 python scripts/validate_manifest.py --strict   # also require every file on disk
 ```
 
-`--strict` will fail until the fixtures are imported. CI runs the non-strict
-form today; flip it once the import lands.
+CI runs `--strict` on every push, so a manifest that disagrees with what is
+committed fails the build.
 
 ## Releasing
 

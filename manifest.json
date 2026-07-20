@@ -75,28 +75,7 @@
       "source": "unknown - collected real-world sample",
       "tested": false
     },
-    "analysis/plano-nacional-educacao-2014-2024-2ed-1.pdf": {
-      "category": "analysis",
-      "expect": "unknown",
-      "license": "unknown",
-      "source": "unknown - collected real-world sample",
-      "tested": false
-    },
     "analysis/portaria-gm-md-no-3-572-de-29-de-junho-de-2022.pdf": {
-      "category": "analysis",
-      "expect": "unknown",
-      "license": "unknown",
-      "source": "unknown - collected real-world sample",
-      "tested": false
-    },
-    "analysis/producao-integrada-no-brasil.pdf": {
-      "category": "analysis",
-      "expect": "unknown",
-      "license": "unknown",
-      "source": "unknown - collected real-world sample",
-      "tested": false
-    },
-    "analysis/revista_a_defesa.pdf": {
       "category": "analysis",
       "expect": "unknown",
       "license": "unknown",
@@ -110,34 +89,6 @@
       "source": "unknown - collected real-world sample",
       "tested": false
     },
-    "analysis/volume1rev2_momento5000_siopproducao_202408292000.pdf": {
-      "category": "analysis",
-      "expect": "unknown",
-      "license": "unknown",
-      "source": "unknown - collected real-world sample",
-      "tested": false
-    },
-    "broken/(EN) Samsung UE75NU7172 Manual.pdf": {
-      "category": "broken",
-      "expect": "unknown",
-      "license": "unknown",
-      "source": "unknown - collected regression fixture",
-      "tested": false
-    },
-    "broken/20131231103232738561744.pdf": {
-      "category": "broken",
-      "expect": "unknown",
-      "license": "unknown",
-      "source": "unknown - collected regression fixture",
-      "tested": false
-    },
-    "broken/3F4E2F8DB55F4E11A1CB3D7D70FE9F9B85865A23949594914F4DBB8574D02BDA.pdf": {
-      "category": "broken",
-      "expect": "unknown",
-      "license": "unknown",
-      "source": "unknown - collected regression fixture",
-      "tested": false
-    },
     "broken/SP800-22b.pdf": {
       "category": "broken",
       "expect": "unknown",
@@ -145,21 +96,7 @@
       "source": "unknown - collected regression fixture",
       "tested": false
     },
-    "broken/Wilberforce-PUN-05172017.pdf": {
-      "category": "broken",
-      "expect": "unknown",
-      "license": "unknown",
-      "source": "unknown - collected regression fixture",
-      "tested": false
-    },
     "broken/bug1020226.pdf": {
-      "category": "broken",
-      "expect": "unknown",
-      "license": "unknown",
-      "source": "unknown - collected regression fixture",
-      "tested": false
-    },
-    "broken/chinese_names_中文的名字-2.pdf": {
       "category": "broken",
       "expect": "unknown",
       "license": "unknown",
@@ -177,30 +114,6 @@
       "category": "broken",
       "expect": "unknown",
       "license": "unknown",
-      "source": "unknown - collected regression fixture",
-      "tested": false
-    },
-    "broken/issue3371.pdf": {
-      "category": "broken",
-      "expect": "unknown",
-      "license": "unknown",
-      "owner_password": "ELXRTQWS",
-      "source": "unknown - collected regression fixture",
-      "tested": false
-    },
-    "broken/issue6010_1.pdf": {
-      "category": "broken",
-      "expect": "unknown",
-      "license": "unknown",
-      "owner_password": "abc",
-      "source": "unknown - collected regression fixture",
-      "tested": false
-    },
-    "broken/issue6010_2.pdf": {
-      "category": "broken",
-      "expect": "unknown",
-      "license": "unknown",
-      "owner_password": "æøå",
       "source": "unknown - collected regression fixture",
       "tested": false
     },
@@ -344,6 +257,12 @@
       "category": "certificate",
       "license": "internal",
       "source": "vanillapdf internal (generated test certs)"
+    },
+    "corpus/chinese_names_中文的名字-2.pdf": {
+      "category": "valid",
+      "license": "unknown",
+      "source": "unknown - collected regression fixture",
+      "note": "Promoted from broken/. The only fixture with a non-ASCII filename, covering path encoding across the C API boundary."
     },
     "corpus/custom/Granizo-signed.PDF": {
       "category": "valid",
@@ -1377,6 +1296,13 @@
       "category": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream"
+    },
+    "corpus/pdfjs/issue6010_2.pdf": {
+      "category": "encrypted",
+      "license": "See SOURCES.md",
+      "owner_password": "æøå",
+      "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
+      "note": "Promoted from broken/. The only fixture with a non-ASCII password (owner password 'æøå'), covering PDFDocEncoding vs UTF-8 handling."
     },
     "corpus/pdfjs/issue6019.pdf": {
       "category": "valid",

@@ -14,9 +14,9 @@ These must be resolved before the repository is made public.
 
 | # | Item | Files |
 |---|------|-------|
-| 1 | Root-level real-world documents, provenance unrecorded | 36 |
-| 2 | `broken/` fixtures, provenance unrecorded | 16 |
-| 3 | `analysis/` fixtures, provenance unrecorded | 16 |
+| 1 | Root-level real-world documents, provenance unrecorded | 37 |
+| 2 | `broken/` fixtures, provenance unrecorded | 8 |
+| 3 | `analysis/` fixtures, provenance unrecorded | 12 |
 | 4 | `corpus/pdfjs/issue5909.pdf` — no longer present upstream | 1 |
 
 ### 1. Root-level `corpus/*.pdf` — assorted real-world documents
@@ -24,21 +24,19 @@ These must be resolved before the repository is made public.
 Collected real-world PDFs whose provenance predates this manifest. Each needs a
 source and license confirmed. Checklist below.
 
-### 2. `broken/` — regression fixtures that fail to parse
+### 2. `broken/` — fixtures the parser cannot yet handle
 
-Files that historically failed to parse, retained for future investigation.
-Never tested, never used as CI inputs. Provenance mostly unknown; several use
-pdf.js / poppler naming and are likely from those suites. Lower risk than the
-tested corpus, since they are not distributed as working examples — but still
-unresolved.
+8 files that fail the open→parse→process→save→edit pipeline. Never tested, never
+used as CI inputs. Provenance mostly unknown; several use pdf.js / poppler naming
+and are likely from those suites. Lower risk than the tested corpus, since they
+are not distributed as working examples — but still unresolved.
 
 ### 3. `analysis/` — large real-world documents
 
-16 large real-world PDFs migrated from the core repository's
-`test_analysis/`, kept for investigation and profiling. Never tested, never used
-as CI inputs. Filenames are overwhelmingly Brazilian government and institutional
-documents; if that holds, most are likely public records, but each still needs
-its terms recorded. Checklist below.
+12 large real-world PDFs migrated from the core repository's `test_analysis/`.
+Never tested, never used as CI inputs. Filenames are overwhelmingly Brazilian
+government and institutional documents; if that holds, most are likely public
+records, but each still needs its terms recorded. Checklist below.
 
 ## Resolved provenance
 
@@ -114,7 +112,6 @@ Files checked and cleared, so they are not re-examined every review:
 |------|----------------|
 | `corpus/custom/Granizo-signed.PDF` | Signer is `CN=TestUser3` — the project's own test certificate, not a real identity |
 | `corpus/request_for_taxpayer.pdf` | Blank W-9 template; its three filled fields hold placeholder junk |
-| `broken/Wilberforce-PUN-05172017.pdf` | A "Know Your Rights" publication; the name is its title, not a data subject |
 | `analysis/portaria-gm-md-no-3-572-...pdf` | Signature is an organisational certificate (Imprensa Nacional), no natural person |
 
 ## Distribution
@@ -125,11 +122,27 @@ Fixtures are published as three separate release assets — `corpus.tar.gz`,
 three times what it reads. Each asset carries its own SHA256 in `SHA256SUMS`, so
 consumers pin only what they use.
 
-`analysis/` is the largest set (99 MB) and the least often needed; keeping it a
-separate asset is what stops it from becoming a tax on every build, the way it
-was while it lived in the core repository.
+`analysis/` (43 MB) is the least often needed; keeping it a separate asset is
+what stops it from becoming a tax on every build, the way it was while it lived
+in the core repository.
 
-## Review checklist — root-level corpus (36 files)
+## Promotion
+
+`broken/` and `analysis/` are staging, not a graveyard. As the parser matures,
+fixtures graduate into `corpus/` and start running in CI.
+
+A fixture is promoted when it passes the full open→parse→process→save→edit
+pipeline **and** covers something `corpus/` does not already exercise. Passing
+alone is not sufficient: the harness runs one ctest per file across every build
+configuration, so a document that merely duplicates existing coverage costs
+runtime and returns nothing. Such files are dropped rather than promoted.
+
+To promote: move the file, set `category` (`valid`, or `encrypted` if it carries
+passwords), remove `expect` and `tested`, and record in `note` what unique
+coverage justified it — otherwise the reasoning is lost and the question gets
+reopened in a year.
+
+## Review checklist — root-level corpus (37 files)
 
 | File | Source | License |
 |------|--------|---------|
@@ -149,6 +162,7 @@ was while it lived in the core repository.
 | `corpus/bps_park_rpk.pdf` | _TODO_ | _TODO_ |
 | `corpus/certificate_encrypted_s4.pdf` | _TODO_ | _TODO_ |
 | `corpus/certificate_encrypted_s5.pdf` | _TODO_ | _TODO_ |
+| `corpus/chinese_names_中文的名字-2.pdf` | _TODO_ | _TODO_ |
 | `corpus/example.pdf` | _TODO_ | _TODO_ |
 | `corpus/excerpts.pdf` | _TODO_ | _TODO_ |
 | `corpus/guide-to-driving-test.pdf` | _TODO_ | _TODO_ |
@@ -172,22 +186,14 @@ was while it lived in the core repository.
 
 individual consents to redistribution, or drop the file.
 
-## Review checklist — broken fixtures (16 files)
+## Review checklist — broken fixtures (8 files)
 
 | File | Source | License |
 |------|--------|---------|
-| `broken/(EN) Samsung UE75NU7172 Manual.pdf` | _TODO_ | _TODO_ |
-| `broken/20131231103232738561744.pdf` | _TODO_ | _TODO_ |
-| `broken/3F4E2F8DB55F4E11A1CB3D7D70FE9F9B85865A23949594914F4DBB8574D02BDA.pdf` | _TODO_ | _TODO_ |
 | `broken/SP800-22b.pdf` | _TODO_ | _TODO_ |
-| `broken/Wilberforce-PUN-05172017.pdf` | _TODO_ | _TODO_ |
 | `broken/bug1020226.pdf` | _TODO_ | _TODO_ |
-| `broken/chinese_names_中文的名字-2.pdf` | _TODO_ | _TODO_ |
 | `broken/g070002ep1.pdf` | _TODO_ | _TODO_ |
 | `broken/issue2391-1.pdf` | _TODO_ | _TODO_ |
-| `broken/issue3371.pdf` | _TODO_ | _TODO_ |
-| `broken/issue6010_1.pdf` | _TODO_ | _TODO_ |
-| `broken/issue6010_2.pdf` | _TODO_ | _TODO_ |
 | `broken/itext_sample.pdf` | _TODO_ | _TODO_ |
 | `broken/missing_header.pdf` | _TODO_ | _TODO_ |
 | `broken/pr6531_1.pdf` | _TODO_ | _TODO_ |
@@ -197,7 +203,7 @@ individual consents to redistribution, or drop the file.
 redistributable. `broken/SP800-22b.pdf` is a NIST publication (US government
 work, likely public domain).
 
-## Review checklist — analysis fixtures (16 files)
+## Review checklist — analysis fixtures (12 files)
 
 | File | Source | License |
 |------|--------|---------|
@@ -211,9 +217,5 @@ work, likely public domain).
 | `analysis/documento-de-interface-de-software-monitriip-dis-v3-0.pdf` | _TODO_ | _TODO_ |
 | `analysis/edital-32.pdf` | _TODO_ | _TODO_ |
 | `analysis/gabarito-edital-151-2023.pdf` | _TODO_ | _TODO_ |
-| `analysis/plano-nacional-educacao-2014-2024-2ed-1.pdf` | _TODO_ | _TODO_ |
 | `analysis/portaria-gm-md-no-3-572-de-29-de-junho-de-2022.pdf` | _TODO_ | _TODO_ |
-| `analysis/producao-integrada-no-brasil.pdf` | _TODO_ | _TODO_ |
-| `analysis/revista_a_defesa.pdf` | _TODO_ | _TODO_ |
 | `analysis/rg_2020_fnde.pdf` | _TODO_ | _TODO_ |
-| `analysis/volume1rev2_momento5000_siopproducao_202408292000.pdf` | _TODO_ | _TODO_ |
