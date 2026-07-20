@@ -18,13 +18,20 @@ import sys
 from pathlib import Path
 
 DATA_DIRS = ("corpus", "broken", "analysis")
-CATEGORIES = {"valid", "encrypted", "certificate", "broken", "analysis"}
-# Categories that are never executed as CI inputs.
-UNTESTED = {"broken", "analysis"}
+# What the artifact is, and what state it is in — deliberately orthogonal.
+# Encryption is not a type or a status: it is expressed by the password fields.
+TYPES = {"pdf": (".pdf",), "certificate": (".pfx",)}
+STATUSES = {"valid", "broken"}
+# A consumer enumerates tests as type == "pdf" and status == "valid".
+
+# Staging directories hold what the parser cannot handle; corpus/ holds what it
+# can. A passing fixture in staging should have been promoted or dropped.
+DIRECTORY_STATUS = {"broken": "broken", "analysis": "broken", "corpus": "valid"}
+
 SKIPS = {"process", "save", "edit", "incremental_save"}
 FIELDS = {
-    "category", "user_password", "owner_password", "certificate",
-    "skip", "expect", "tested", "source", "license", "note", "sha256",
+    "type", "status", "user_password", "owner_password", "certificate",
+    "skip", "expect", "source", "license", "note", "sha256",
 }
 # Paths in the config block that must point at a manifest entry.
 CONFIG_PATHS = ("merge_file", "signing_certificate")
@@ -65,21 +72,25 @@ def validate(manifest: dict, root: Path, strict: bool) -> list:
         if unknown:
             errors.append(f"{where} unknown field(s) {sorted(unknown)}")
 
-        category = entry.get("category")
-        if category not in CATEGORIES:
-            errors.append(f"{where} category {category!r} not in {sorted(CATEGORIES)}")
+        kind = entry.get("type")
+        status = entry.get("status")
+        if kind not in TYPES:
+            errors.append(f"{where} type {kind!r} not in {sorted(TYPES)}")
+        elif not path.lower().endswith(TYPES[kind]):
+            errors.append(f"{where} type {kind!r} disagrees with the file extension")
+        if status not in STATUSES:
+            errors.append(f"{where} status {status!r} not in {sorted(STATUSES)}")
 
         bad_skips = set(entry.get("skip", [])) - SKIPS
         if bad_skips:
             errors.append(f"{where} unknown skip value(s) {sorted(bad_skips)}")
 
-        # broken/ and analysis/ hold fixtures that must never reach CI as inputs,
-        # and each directory must agree with the category of what it holds.
-        if category in UNTESTED and entry.get("tested") is not False:
-            errors.append(f'{where} category {category!r} requires "tested": false')
-        for name in UNTESTED:
-            if path.startswith(f"{name}/") and category != name:
-                errors.append(f"{where} lives under {name}/ but category is {category!r}")
+        expected = DIRECTORY_STATUS.get(path.split("/")[0])
+        # A certificate is an input, not something the parser is asked to handle,
+        # so the directory's status expectation does not apply to it.
+        if expected and kind != "certificate" and status != expected:
+            errors.append(f"{where} lives under {path.split('/')[0]}/ "
+                          f"but status is {status!r}, expected {expected!r}")
 
         # Every path is rooted in this repository — nothing may point outside it.
         cert = entry.get("certificate")

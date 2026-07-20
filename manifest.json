@@ -1,332 +1,325 @@
 {
-  "$schema_version": 1,
+  "$schema_version": 2,
   "config": {
     "merge_file": "corpus/19005-1_FAQ.PDF",
     "signing_certificate": "corpus/certificates/TestUser3.pfx"
   },
   "files": {
     "analysis/1TAConvnion839458.2016Cacoal.RO.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "a45138b685000278860458530190c40936e0a52337820eb563c440281e7f38a3"
     },
     "analysis/29_portaria_agu_n__402_-_06092012_.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "5fb9e1b55fe93e315920cfd1f048969a149004d84b69e7da4dadd0fa6e09646b"
     },
     "analysis/4o-termo-aditivo-ao-contrato-operacional-especifico-fca-e-mrs.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "875142009bd009b70e9567560575c4db6e538cabf355b15ba4db38e238ac48d7"
     },
     "analysis/Flora2020digital.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "780dbb9a564bbbf63421a3794b696ad9e5ddd09cb5aef88b8b8a5f3f7658586a"
     },
     "analysis/MapaPipe2019.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "0e3410bef931ce1793bce6154830c271ec26736ef8e6fea66ca87c356d3d79d9"
     },
     "analysis/Plano_1208925_assinado_Plano_de_trabalho_Espac807o4_0_IFAL_ArapiracaRioLargo_28_05_2020__002_.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "4d11ea8b68072226e42cf59d1b7257de74aa741b8ffad729e3a49a4fa53b87da"
     },
     "analysis/Portaria20nC2BA835_condecine.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "0f4df8ff5d6902f80295f95170fcc0c7f27cc1eb4684bff52b92fc2934aba506"
     },
     "analysis/documento-de-interface-de-software-monitriip-dis-v3-0.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "35118281df28c7e7e3a5872f69ab5dfb4f735fece5e0cb6988fad402cfae389e"
     },
     "analysis/edital-32.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "1c92b39e67aa602eb488c522322663a76ba354b45ce436a12bb6dae11e38f8ea"
     },
     "analysis/gabarito-edital-151-2023.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "c48aa79885b48a6380bb117ade9f7f0532f33bcd41fce5f89dc6a74d8d0405d6"
     },
     "analysis/portaria-gm-md-no-3-572-de-29-de-junho-de-2022.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "a64f901f6e22fe032e08763daaedd6ecfdf2f6870ad77e9a7da4d779ab6b2a40"
     },
     "analysis/rg_2020_fnde.pdf": {
-      "category": "analysis",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected real-world sample",
-      "tested": false,
       "sha256": "24ffebb9e79bd720ea7606994905287e2e05c14416396e99af5c3f494e64a77c"
     },
     "broken/SP800-22b.pdf": {
-      "category": "broken",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected regression fixture",
-      "tested": false,
       "sha256": "1dc0fab70028b1b5106b2b6666d8a92e30792c313cedf5575ec0abd3e40da65d"
     },
     "broken/bug1020226.pdf": {
-      "category": "broken",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected regression fixture",
-      "tested": false,
       "sha256": "50e91d373aa313537972519c65b050f8d4d5bd996859fa20756432c2029c3ff6"
     },
     "broken/g070002ep1.pdf": {
-      "category": "broken",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected regression fixture",
-      "tested": false,
       "sha256": "56728e71e2227abb782f114bcf02c1b46780af085c785ce61c6eea01ff5c7889"
     },
     "broken/issue2391-1.pdf": {
-      "category": "broken",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected regression fixture",
-      "tested": false,
       "sha256": "d8efb66423ad2ddf275d4c6292c5beef166f9819cd2c4e3679e4a67187050a24"
     },
     "broken/itext_sample.pdf": {
-      "category": "broken",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected regression fixture",
-      "tested": false,
       "sha256": "646816ff7239fcee73ea49a3cdb87d76d512235581da38972c3369bc1949946d"
     },
     "broken/missing_header.pdf": {
-      "category": "broken",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected regression fixture",
-      "tested": false,
       "sha256": "256f92e7a881639c97dd3ddd97e8a9e5c15799f7b2743ff70178a998dad8aef3"
     },
     "broken/pr6531_1.pdf": {
-      "category": "broken",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected regression fixture",
-      "tested": false,
       "sha256": "a5584ab7da3a77a2d3726e8289d7740ad11df06375af95f81bd4c7cc63a7e4fc"
     },
     "broken/pr6531_2.pdf": {
-      "category": "broken",
+      "type": "pdf",
+      "status": "broken",
       "expect": "unknown",
       "license": "unknown",
       "source": "unknown - collected regression fixture",
-      "tested": false,
       "sha256": "e85d22b832a61be1d302a811e29c5df5ccd2a3795633178449d0b2e0e2451118"
     },
     "corpus/19005-1_FAQ.PDF": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "deb154838627bda2b18149abd2e2f3e159e18734c5121113bd70ac455c35e4dd"
     },
     "corpus/296333333-pdfSample.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "5d5fd9b0a661367012b15064bd0feb70d0a7d2a762c704fe0daf2a922cf0a7f5"
     },
     "corpus/AdobeXMLFormsSamples.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "36547f22533af1d676e8beb4de56a206fff397481bf95fc9c95924cd8184ff8a"
     },
     "corpus/Castles_SATURN1000.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "53673a697d114bfecc96aa5519dba386fa3e3792e6d3f33b834c7ab4bc760b9d"
     },
     "corpus/Everyday.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "975bf4feec04865212795ed2d561720f92322060c946271aaf4f3c1c792020ed"
     },
     "corpus/Granizo.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "4c76b7a367c810aa717ec49caf5bd8ee3edeefd197241f6bd3698ed5de2c4ddc"
     },
     "corpus/MPK_SLOVLEX.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "b5eaea5d9325b4c18896bab90386228a8b3f25cbe9da57185b411f80aba76103"
     },
     "corpus/Park-University-USA.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "3c94e1d94950ec8a106aa303c82063475272eda47811ba9082846e1e86b58c97"
     },
     "corpus/Report.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "MOBILedit Forensic (Compelson) tool output",
       "note": "Forensic report output kept as a regression fixture: it exposed a parser defect. Contact details in the text are synthetic vendor sample data, not a real handset extraction.",
       "sha256": "8f266f81c091ff44befd9a33b58d1044c5b85c51f165dc7efd27ae306a2aef69"
     },
     "corpus/SP_274-2007.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "0616aeeae658c508c891dec64a02b7c51c2537b347e2257f99f56d04106072ac"
     },
     "corpus/access2finance_financial_intermediaries_privacy_statement_en.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "2ecb1206f6fd206a8b9399f53622d567bb41402fe7be617d18c368fe7b5320a6"
     },
     "corpus/accessible_pdf_webinar_session1.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "a1bb2ac204e3bc8762b903536cee47848aad5528d3ec2607b1262ea945951c30"
     },
     "corpus/acro6_cg_ue.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "62f97e459ded5a4daaa52fe60ce94c5bed8cdc193a1a5f31325df63fb0fbffda"
     },
     "corpus/bps_park_rpk.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "3857802d068f1dccf7fb8d9255f33b1457057a779baa23fdf8bf1394594f40b9"
     },
     "corpus/certificate_encrypted_s4.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "certificate": "corpus/certificates/TestUser3.pfx",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "3e6ae617b537161770e37fb120b550bacef3dd523ccdd2d6dc2353bd6ae8f5b8"
     },
     "corpus/certificate_encrypted_s5.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "certificate": "corpus/certificates/TestUser3.pfx",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "78f35639c02166ffa6bd2f122078316f56a3f7702cf17046700c3fe974ec7b6f"
     },
     "corpus/certificates/TestUser3.pfx": {
-      "category": "certificate",
+      "type": "certificate",
+      "status": "valid",
       "license": "internal",
       "source": "vanillapdf internal (generated test certs)",
-      "sha256": "3cce95490bcc42cdeb27fae18f94cb9aec4e9b4d91eef7b4de7f653c80eeebde"
-    },
-    "corpus/certificates/Test_2kDSA_SHA256.pfx": {
-      "category": "certificate",
-      "license": "internal",
-      "source": "vanillapdf internal (generated test certs)",
-      "sha256": "5c4b754c14c9d02a10afa7e0e89430a0ce9f5e6d72d268380e0bdc28b1ffcfc4"
-    },
-    "corpus/certificates/Test_4kRSA_SHA3_512.pfx": {
-      "category": "certificate",
-      "license": "internal",
-      "source": "vanillapdf internal (generated test certs)",
-      "sha256": "550a4fc4ddccdb36d4c0abc90bbc10a09cf29640b60a5b51c4a9f87e4473e7fd"
-    },
-    "corpus/certificates/Test_EC384_SHA512.pfx": {
-      "category": "certificate",
-      "license": "internal",
-      "source": "vanillapdf internal (generated test certs)",
-      "sha256": "4558a445c6881c1b8cc1e927c30f649fbbebb8f08a879b68b351bf95cd4d13a9"
-    },
-    "corpus/certificates/Test_ED25519.pfx": {
-      "category": "certificate",
-      "license": "internal",
-      "source": "vanillapdf internal (generated test certs)",
-      "sha256": "619970999a758da5541e59cffa1734c05e2df57cf0d44c4c60d9a0351f26c56c"
-    },
-    "corpus/certificates/Test_ED448.pfx": {
-      "category": "certificate",
-      "license": "internal",
-      "source": "vanillapdf internal (generated test certs)",
-      "sha256": "e815c6d95253da13c91f6a32152704431c92b5b1d4a4750a01a196e06e9697a1"
+      "sha256": "3cce95490bcc42cdeb27fae18f94cb9aec4e9b4d91eef7b4de7f653c80eeebde",
+      "note": "Decrypts corpus/certificate_encrypted_s4.pdf and _s5.pdf, and is config.signing_certificate. An input to tests, not a test itself."
     },
     "corpus/chinese_names_中文的名字-2.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - collected regression fixture",
       "note": "Promoted from broken/. The only fixture with a non-ASCII filename, covering path encoding across the C API boundary.",
       "sha256": "c3ba5d1ffc9abf08b66f5c4ac49a77a8a77232b84850013af1991a5aea4436e1"
     },
     "corpus/custom/Granizo-signed.PDF": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "source": "vanillapdf internal",
       "sha256": "83c32722c9546d0fd58ad021194e166a9b5242034e12d8027777564f15d16723"
     },
     "corpus/custom/Scan2.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "source": "vanillapdf internal",
       "sha256": "967bfcebc62e60a863b7cba44afed04de1a59fb6fc9fc08e5a93998aec98763d"
     },
     "corpus/custom/aspose_trial.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "source": "vanillapdf internal",
       "sha256": "5cf8190e6aefc8f70ed3faba08d01bbd3bfca92624b6c542d1918915a50e8d10"
     },
     "corpus/custom/example_128-aes.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "owner_password": "testik",
       "source": "vanillapdf internal",
@@ -334,7 +327,8 @@
       "sha256": "e31cfb1a7e01d95e504247b5d7d7ea509a4863594db4ce57dc5866bc3ed184f8"
     },
     "corpus/custom/example_128-rc4.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "owner_password": "testik",
       "source": "vanillapdf internal",
@@ -342,7 +336,8 @@
       "sha256": "821c09fb28f83581641b71951b2118bced40766579081aed65a8e58fd2c9627c"
     },
     "corpus/custom/example_40-rc4.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "owner_password": "testik",
       "source": "vanillapdf internal",
@@ -350,13 +345,15 @@
       "sha256": "bb2872d5af3a66d241c1fa7f573c44e01ecfcb320071bf96cb14a60a20a3ebc6"
     },
     "corpus/custom/minimalist.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "source": "vanillapdf internal",
       "sha256": "80d54e0ee1fefef45c8e70a9aba516c081db684cc8edcfc6dc0f549be82d4d5a"
     },
     "corpus/custom/sample-encrypted-aes-128-rev3.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "owner_password": "owner",
       "source": "vanillapdf internal",
@@ -364,7 +361,8 @@
       "sha256": "af46176edbbd19b9f1859956ccd0a0751c8f0ca9bded413713455e1bf0a6c952"
     },
     "corpus/custom/sample-encrypted-aes-40-rev2.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "owner_password": "owner",
       "source": "vanillapdf internal",
@@ -372,7 +370,8 @@
       "sha256": "ab3f0ff891b2a4b58744cada5f317ebf3c1887aa3fcf6db5937b4d6dfbaeb9b0"
     },
     "corpus/custom/sample-encrypted-rc4-128-rev3.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "owner_password": "owner",
       "source": "vanillapdf internal",
@@ -380,7 +379,8 @@
       "sha256": "f3c2ffb87493cab7253e713e164add6b2281d74e6e91c3bf500c529fa1bb3d39"
     },
     "corpus/custom/sample-encrypted-rc4-40-rev2.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "owner_password": "owner",
       "source": "vanillapdf internal",
@@ -388,25 +388,29 @@
       "sha256": "51b696fc30850e83bec81d0faece4a78883f7cb0838673b07f59ef51422f5bb7"
     },
     "corpus/custom/sample_signed.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "internal",
       "source": "vanillapdf internal",
       "sha256": "ef5577ac512b80c7d0daccf7ed68cd4d76ed66cd4002f07b33c9853763e856ed"
     },
     "corpus/example.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "6447e51a69073dd973c0a3485074359e20e60ba18ce5d48ebc64db990ec7c035"
     },
     "corpus/excerpts.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "e6bee3295f1718a131e69c9ae3acaa482de9f4e0b2337e5b25ba2b98d5dddd0f"
     },
     "corpus/guide-to-driving-test.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "skip": [
         "save"
@@ -415,195 +419,227 @@
       "sha256": "6de0792c24916861d60a428fa096134dc52e3061ef842c319ae9c8ad0fa9273b"
     },
     "corpus/j130013du1.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "0251d659123ba576eed8a4e882099bf677c18fdf280289b01ad8857844c97408"
     },
     "corpus/jpdfunit_aShortIntroduction.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "aa62d5e811fa8809520025ba2c87fe3ffd49c12f04663b6b915c0dc08c6c4a80"
     },
     "corpus/manual-memorias.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "4d8481865a0d602c7533f7627973ac23bd18d93bbc62d0210acb9463192bf859"
     },
     "corpus/manual.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "4a8c9ae7ac0c54d462791476e773e31ae44489d9221eb930da6ea687ca56f0c4"
     },
     "corpus/parrishfull.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "932700ef0b5fb1fecee9f3c9ed4134003453e1b9c1c3384d1d21170c216c9172"
     },
     "corpus/pdf-association/pdf20examples/PDF-2.0-UTF-8-string-and-annotation.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "PDF Association pdf20examples",
       "sha256": "982fb7220a899d0c9f2b1e200feb524b9eb2f386991368a2326979b807775940"
     },
     "corpus/pdf-association/pdf20examples/PDF-2.0-image-with-BPC.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "PDF Association pdf20examples",
       "sha256": "803b4d3dadbd32c7c09a983e0d8cb9149c40fb0c82e2816bec35db2ef8bc5bb1"
     },
     "corpus/pdf-association/pdf20examples/PDF-2.0-via-incremental-save.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "PDF Association pdf20examples",
       "sha256": "15ae04c4970b2b7c588918b823a034b5909d9025682958440decec5f7824d501"
     },
     "corpus/pdf-association/pdf20examples/PDF-2.0-with-offset-start.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "PDF Association pdf20examples",
       "sha256": "63920bbad2e7f9ae7baad42345ae929b3776e564c9a1d76e108429883b262744"
     },
     "corpus/pdf-association/pdf20examples/PDF-2.0-with-page-level-output-intent.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "PDF Association pdf20examples",
       "sha256": "8a961e84a7018ffb519fab0a2e336f16f86cca4134d601728c62123bfc175888"
     },
     "corpus/pdf-association/pdf20examples/Simple-PDF-2.0-file.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "PDF Association pdf20examples",
       "sha256": "df5f2fe95edb35ea136d3f85791947429e2573ea3ccb9320cb51b0bf7103526f"
     },
     "corpus/pdf-association/pdf20examples/pdf20-utf8-test.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "PDF Association pdf20examples",
       "sha256": "066cac85038db27cb85b923eb2fbdffb4c76e94bf2f4d21cc952af94b40e71fe"
     },
     "corpus/pdf-example-encryption.original.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "owner_password": "test",
       "source": "unknown - REVIEW",
       "sha256": "ebcb278b53f8efb24171821a9e2e47211f96f7af686b37fb740cdfb4070ef432"
     },
     "corpus/pdf-example-password.original.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "user_password": "test",
       "sha256": "76593a57d9787a86050815e830a4c69425f5c95017fdb6f509074658932056e2"
     },
     "corpus/pdf-test.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "f6edcd8a1b4f7cb85486d0c6777f9174eadbc4d1d0d9e5aeba7132f30b34bc3e"
     },
     "corpus/pdf.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "ebb031c3945e884e695dbc63c52a5efcd075375046c49729980073585ee13c52"
     },
     "corpus/pdfSample.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "5d5fd9b0a661367012b15064bd0feb70d0a7d2a762c704fe0daf2a922cf0a7f5"
     },
     "corpus/pdf_open_parameters.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "12fc6bd0d8f2d0de1ef358319987b78c2767bc506e02cb70f7eb4f64e6101a98"
     },
     "corpus/pdfjs/ArabicCIDTrueType.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "1cad1de912ba29f89a6d8b08bc5b0f84382874ffedab2c8f9e05ef608c265bb1"
     },
     "corpus/pdfjs/IdentityToUnicodeMap_charCodeOf.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "81243ff4cca5f7898688008224247d88534cd03e76ac3cbbdc38f925cfbee18f"
     },
     "corpus/pdfjs/S2.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "57d874f2760ded2b70eb58b7b5e31df407d5641b7225576b77458b5dc5009543"
     },
     "corpus/pdfjs/TAMReview.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "a6db6d2f5e4f97e1e28a5919a875a40b89e38d0229b33cc023ca4d353f3ab3ec"
     },
     "corpus/pdfjs/Test-plusminus.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "2d572b042e50128127cc1c5a056da3f94b77854b6cca89ff074e1269b9172a45"
     },
     "corpus/pdfjs/ThuluthFeatures.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "752304c24a50834d111793fc038cafc892c071d04f214072729c41a178c161e7"
     },
     "corpus/pdfjs/TrueType_without_cmap.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "3e111eef52ce9c0d0b1da043290df4b49a5670c89891fcb3db6962edb12e35aa"
     },
     "corpus/pdfjs/ZapfDingbats.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "f0d3d15d1dd611a8ca6904389db4fa111ff53c506cb75177743a27fb5c4273fe"
     },
     "corpus/pdfjs/alphatrans.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "234c0ab8e9458f4d17133b08d2b66170eeb92be2a80e1508aa5117a2bf568f63"
     },
     "corpus/pdfjs/annotation-border-styles.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "ba3a3c67030f9be2ad2c1989b78ec302501f71cecb4e5ebf193f6ce9ca51ff56"
     },
     "corpus/pdfjs/annotation-tx.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c7be52654eaede8a9f33757168957f938f56e73fcd4c53539db5672dee426208"
     },
     "corpus/pdfjs/arial_unicode_ab_cidfont.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "049a4330710d8470896061acf7ee486735e94cef2769f6cc13fec3cb13bb65aa"
     },
     "corpus/pdfjs/arial_unicode_en_cidfont.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "1c4a08108d8074f543c04e9b2ea2b93a842e2b29eb05ee9d99766f430fd365ab"
     },
     "corpus/pdfjs/asciihexdecode.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "skip": [
         "edit"
@@ -612,379 +648,442 @@
       "sha256": "a585217008f3dd3980b0ae69f4f65baab11c62c9db73d786e27b3e16ac6c3f12"
     },
     "corpus/pdfjs/basicapi.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "925853d98d67d5dae7473c635f932958e1695ce1029d23b2ecd2531cb65f1f14"
     },
     "corpus/pdfjs/bigboundingbox.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "6cd3d57b85891021af2de75ac304a6efc2894793dab7594968b0b5efcd1d0013"
     },
     "corpus/pdfjs/blendmode.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "39ce34c2d32738c7c94970fd76559ecb9efd671f5ab99e515a853674e7a824ce"
     },
     "corpus/pdfjs/bug1001080.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "98523b6e09b1c1f9ffb5a6911f49d9b40703b0faa191661c5ba376beb428951d"
     },
     "corpus/pdfjs/bug1011159.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "4fef58de1f25259bd113e2d07656bfa67440a7d7e214a6a395d6745faceae4a3"
     },
     "corpus/pdfjs/bug1020858.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "89385d91604eb25b1d2fae81a8b04748840be710bba5f972acb67f53ea49f543"
     },
     "corpus/pdfjs/bug1027533.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "80d5111dda8dd3f63297d278b83cce0325c44274b3efabe60f88539db0aa329d"
     },
     "corpus/pdfjs/bug1028735.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "db81a78cd6e3908dacad4aa2dce4275766c0dbcc8ca506b11f8adc579f809864"
     },
     "corpus/pdfjs/bug1046314.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "a0bea37e3a032d4378c809dffc33a0766f7d364ba7b0bbe514a219ce4034e4d2"
     },
     "corpus/pdfjs/bug1050040.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "4a71cb411950617e23b383f93c5c5e87c231a6bb6cd1e191fa0597ff2d0d73ce"
     },
     "corpus/pdfjs/bug1065245.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "00beff9834bc18913a93f0c7bc0572187845c665e29a1ff3aa0bc3b8121feee5"
     },
     "corpus/pdfjs/bug1108301.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "37881e37a8586bd167838ca72ec497335eaaafbf1df512469b3bce8d9c3c9d11"
     },
     "corpus/pdfjs/bug1151216.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "441cbcfd89d499a78c1881eb6800c3e95957a5f5a5c7c81c9e92d74ada952a56"
     },
     "corpus/pdfjs/bug1157493.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "7ac04650391b976d24047ca4553c91546b455345392c06811c5389dac194d96a"
     },
     "corpus/pdfjs/bug1175962.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "9f1822292931c1360760ea005e6e444626b330b577e953ab6d1cba411bb26dde"
     },
     "corpus/pdfjs/bug1186827.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "979ab4de6732354a540f0d110039e3c4c73e55fa8db7097592167a8e7e5ebd2d"
     },
     "corpus/pdfjs/bug1200096.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "523f5f0bcaf82fc303c2cf0d9ee9cf5d75465a5ef1547e143ee1a3cb600913de"
     },
     "corpus/pdfjs/bug816075.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "dbf00808ab28ab2f1d8b5ffac06059a01d85da4aefd842da0b6ca95803f72f9d"
     },
     "corpus/pdfjs/bug847420.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — upstream copy has since changed",
       "sha256": "bfbfc0b5d5e82051770c57cf5f5d9b46a047b628b6db92b565fb28645b2e3754"
     },
     "corpus/pdfjs/bug850854.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — upstream copy has since changed",
       "sha256": "4ba802bb4e44c7099c8a1fc40c04eba531b78c8980493f8a488e403f04a92f67"
     },
     "corpus/pdfjs/bug859204.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "2accf1f25f490466741c7fab3012fde4b0f3a059d6ec2495da6598739254f561"
     },
     "corpus/pdfjs/bug860632.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c1176b74fa154afdd6cab286ceac8b3f6c8c32e3d8fdf7d6261147e0a0a9e95c"
     },
     "corpus/pdfjs/bug864847.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "7de6e60a02f6900156c17d3664d105e7f48e66d470674c7f83e78ddd42144009"
     },
     "corpus/pdfjs/bug866395.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "341016ccd4b55ebb05376555be04141f7f5b469168b9e12c5ab394097e7f3c32"
     },
     "corpus/pdfjs/bug868745.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "ec1dabb86c4075c8a2a3ae3edeaa58093200acd2bf34d88a8d0d96671ded7df0"
     },
     "corpus/pdfjs/bug878026.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — upstream copy has since changed",
       "sha256": "bf2a1f905c41e2a8752a40de7273f2789e3c9e44735ab2006cdfc93e06a5cc60"
     },
     "corpus/pdfjs/bug886717.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "ecb11c144044be8a8bb6cc45a6b85c12640650cb8cf3f57108a0a15da6f37b4c"
     },
     "corpus/pdfjs/bug893730.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "60aee39373d852e5a9a2854d8c68b5fd90adb36d33b40f769668763df855b2fc"
     },
     "corpus/pdfjs/bug894572.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "074b76df956c16c21058f65eb35713206ec436531ba350fc01152a2d61893635"
     },
     "corpus/pdfjs/bug898853.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "ca304fba6bd71022a7d5d6e1f86ab7765b7d898e5535015ce1709504ae7ee9cd"
     },
     "corpus/pdfjs/bug900822.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "76ff1ee293cd3a447b737f882840af70e50627f3010170fe3c1581090be8fd61"
     },
     "corpus/pdfjs/bug903856.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "799c57d103916a621fde4390594bd1b32aea2dccb7908e7a53bdc02daa1e990c"
     },
     "corpus/pdfjs/bug911034.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c460226a3942a5cb5c106d2573f345c6838511c6ecef91586eec052d7e5cef6b"
     },
     "corpus/pdfjs/bug921409.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "16dc0443ef3dd55a5ae5b01a6cc7f177965db8fa54356c25f863ccda57314225"
     },
     "corpus/pdfjs/bug946506.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "3b1e144572ef6db1555b7d305597b34135fe98593f5bbe73faffb9f8a4bb2267"
     },
     "corpus/pdfjs/calgray.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "5521110fbe2a8cf1d299b3a9d9a03d0db928de7addfa2ea50e32fb440575fc12"
     },
     "corpus/pdfjs/calrgb.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c59544af2bdce1e53e28359a8320f26c90f7f5fcf7b294c3d2d8a35abccd9428"
     },
     "corpus/pdfjs/canvas.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "3548b2605bef8ff9656efe8ef8fd94814dfbcf94f547c7d1ff8603e8a46cef6b"
     },
     "corpus/pdfjs/cid_cff.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "d894d356411217414fd9040d3d038612e1f4a1598936b2385a76458dd6d64d38"
     },
     "corpus/pdfjs/close-path-bug.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "7fd3763b267ac95ea7a0d2796d154eb9d3c77713f0812a3d1b86a9e39c66c83f"
     },
     "corpus/pdfjs/cmykjpeg.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "659d6b19912f63db988b0b26b9bde0e6d8100667ef162051a4a84ea8e5b90272"
     },
     "corpus/pdfjs/colorkeymask.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "655a470881a3bc4fac682abe88522c86c11ff41d08ecf94fae2f53ecd0c2d27c"
     },
     "corpus/pdfjs/complex_ttf_font.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "4b205d3fd11e7ad2b9b86cc446561909d48dd9e0b38327cfd69d0fdeb6c28e14"
     },
     "corpus/pdfjs/coons-allflags-withfunction.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "8651b10026886ec8e4dd8cad4b13b966aed6fe27bbcc34f8fe4931f0b0efe1ff"
     },
     "corpus/pdfjs/devicen.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "1fbaf094e1c714513aea19258e74269b6b5365ea769e288a8e142773f6cf2b94"
     },
     "corpus/pdfjs/endchar.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "8b049b9f5c17003444ace7ed3b383a0041ac507a3751d2821f6f4e10e1e9de05"
     },
     "corpus/pdfjs/extgstate.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — upstream copy has since changed",
       "sha256": "760d189abd0cc61498f1f28900c4fccda01f74d6aee55509378452fbe8058346"
     },
     "corpus/pdfjs/filled-background.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "26fd407cdfe12ec60bea574b04cb0202f065145bd53fbcdf5c0061bb7547843f"
     },
     "corpus/pdfjs/franz.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "050ae194d21d9b257db62b85cdb632178bbcf71fd7e26c13e75e473a3fa4e8ea"
     },
     "corpus/pdfjs/franz_2.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "bf94c3ec8d6e97db4a5f828e1c61d0cfbe02730ef40f40a0aa2c67e44cd1158b"
     },
     "corpus/pdfjs/freeculture.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "753441c619c529c8d0fc3e7e470f07c9547838fc7229bea8c1dcf854acee03b4"
     },
     "corpus/pdfjs/german-umlaut-r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "b1a6c55230c70a885d9ce0be1b2a80a7c451b506d4a81c7ef540bda426f7a1aa"
     },
     "corpus/pdfjs/glyph_accent.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "556da20f31754bcfabd6821b39e4d97ea569fd91363a19ef9b16cdec0f95a68e"
     },
     "corpus/pdfjs/gradientfill.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "47df49b25adf1cc4048c3ec2051f1b304535b5d99090bbfb6eaf2f7a45e0bb14"
     },
     "corpus/pdfjs/helloworld-bad.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — upstream copy has since changed",
       "sha256": "c9efcaa374939ff19fc37974131f1db6d457eb942700c02a63fc9dda983e1400"
     },
     "corpus/pdfjs/issue1002.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "f56a73d0ce26f32e5b944f079ea2a34abcb3032e0e5be661c3ceaf337c17abed"
     },
     "corpus/pdfjs/issue1045.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "12cc65e222f51d7885ef5c5901bf38bd331315c9f599611939620fcdb4a4bbc4"
     },
     "corpus/pdfjs/issue1055r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "72b7e38e23c71d59baaee17be567ee6b9b06eebdc280301b547e15b543c8906e"
     },
     "corpus/pdfjs/issue1171.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "558a09f9c02821c7bb75fe4c7f808fa0b47b9484d63aa4a5e8bdcba28b233023"
     },
     "corpus/pdfjs/issue1249.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "20cd02a40fb5c869f0d4428c9e066c95dcbb7d8f2601da7c8cdf426f98b30af7"
     },
     "corpus/pdfjs/issue1293r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "ddaec949a147aabda320284cd174950d9b0f7ea8b14c99ac73bf9f4a2dbde21f"
     },
     "corpus/pdfjs/issue1350.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "bea02a5e94be1ffb526a98f3dd6c5e50fd53a3b14f0c70cb13be04868ffd0cb3"
     },
     "corpus/pdfjs/issue1453.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "skip": [
         "incremental_save"
@@ -993,133 +1092,155 @@
       "sha256": "ec4404ef6720393139c0307f77d65874643a0f86bf189a4ecf83fda4086ce82e"
     },
     "corpus/pdfjs/issue1512r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c7dbd4aa5765a102c2f99ed1784e88912120c91228d78b81f3264d196c462acc"
     },
     "corpus/pdfjs/issue1655r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "35727e2fa2bb533ec1e5d69a3b7a29de2214f7005afa6afedbd14ce1e53e8252"
     },
     "corpus/pdfjs/issue1905.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "a75f3220b351d509e954ba30ea131e55a2c7530d96586eb0968a1d7d1d8b3c56"
     },
     "corpus/pdfjs/issue1985.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "0f991f71856c5e88775f48cf194bf4cd3800c27875352473461e16e01750f3d6"
     },
     "corpus/pdfjs/issue2074.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "47496c67bd2119676c132f2afbf7ff6cd944b89155e9c4c15b969ff666978d18"
     },
     "corpus/pdfjs/issue2099-1.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "007c39ebfe248ca435add765bddc9a983e075e4059efbf4ba013672c55937e5d"
     },
     "corpus/pdfjs/issue2128r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "4820d9475f71cdc7ee60f4f8a5c7ec7268bab9f249305a70b3cc65e5bb1b3a64"
     },
     "corpus/pdfjs/issue215.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "cc7f2dac4eac4eafdde6fad8441c8044b07be9dde55b02ecc2ecde8bdab8bba4"
     },
     "corpus/pdfjs/issue2176.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "f19d113c682a80a697746e62daffe024f69249422ec4675755c242dd860c523f"
     },
     "corpus/pdfjs/issue2177.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "fa5b5a3d2654ec1ff6fcc775616ac71435a17abd64544243c3d997d54f757c01"
     },
     "corpus/pdfjs/issue2391-2.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "91b83b33a1d996be26caa5cde81cd0b5d58cdfed004853a24c569f5c338e93a4"
     },
     "corpus/pdfjs/issue2462.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "4f7b9e5eb213bae3b6df7534e2108bd2f2d6e356bc2b70a129220ff7ac90d026"
     },
     "corpus/pdfjs/issue2537r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "6e7bd57ffa12dfc05de588ef2102f00829b95beb2368404351c2a4fe7c9ae8fc"
     },
     "corpus/pdfjs/issue2761.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "73984619bd5fc699aa87118abe8608904b3aab762045326c96950716d3ce11e3"
     },
     "corpus/pdfjs/issue2833.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "a085386355d927d4a1211368e7e1cbd3972af8a0d7a75039e680a578c055cf3a"
     },
     "corpus/pdfjs/issue2840.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "5eacce1a54086198b7eb7513bfbfd0254dc651ce4be94bcfe75369001a8395b3"
     },
     "corpus/pdfjs/issue2931.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "d2e28238998c391f21343d9005aecf257b37b71abac10ab07409ab029cd0ae61"
     },
     "corpus/pdfjs/issue2948.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "ca52f1602d984cb7a0db562ea1217d879cde4fef402a9564152cab15f6546d5b"
     },
     "corpus/pdfjs/issue2956.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "5a8ef0877c8df0913f3fc4e592972fbb7eaba14daf6293e2707f5988f4bbdcf8"
     },
     "corpus/pdfjs/issue3025.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "5679b6c2ba894cf7de6d15a07c7c6a37b39aaaece9f9d6c3fff0ffe88197fc58"
     },
     "corpus/pdfjs/issue3061.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "db6993f15214cb761a3e74df53a344bb59be2ee8418c128e75772170402f68c4"
     },
     "corpus/pdfjs/issue3188.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "skip": [
         "incremental_save"
@@ -1128,385 +1249,449 @@
       "sha256": "6245a949d6d7418620b0683e2ff44852628d51d484598baaa677839f0172d27b"
     },
     "corpus/pdfjs/issue3205r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c18cc334710201216b047ec58de81950be942b97a5ffb20b50f91a7c64a3da4f"
     },
     "corpus/pdfjs/issue3207r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c47d302f6604f5518258ea5d6c00ae2fff6e3a2c3ebce31631a87d534de55d9d"
     },
     "corpus/pdfjs/issue3263r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "beb3b7d23b37a63310184c9ee9be62895e67c06ad78c6e0ea51b50401ff7d3cf"
     },
     "corpus/pdfjs/issue3323.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "e27b6af9ecbce8cc68588b8ae7f4af4f5214bc80dcbb479bdb928010b4dec26b"
     },
     "corpus/pdfjs/issue3405r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "3b2d73a8e1bbfb43d54b0fb429455af9896a7edbdc748b68c42065f36df31825"
     },
     "corpus/pdfjs/issue3438.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "bb5066a767cd245860f67f66c177fdb1c543b6464a003566eea277b4e58e2e9c"
     },
     "corpus/pdfjs/issue3458.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "80355e5c612373a6856e8ff87a702d3499f4989319ac21acf1b83e906b0d088b"
     },
     "corpus/pdfjs/issue3521.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "5ab6217d6634589fb9a2c4c8780c6aed02b498bb0a60ad9419f9e13a2e1bfe2d"
     },
     "corpus/pdfjs/issue3566.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "1202e4c94155a0021343825edd896524f3541fd3887cc456987f7279ff80aae3"
     },
     "corpus/pdfjs/issue3584.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "b3fdd74779209c148220be77a21b4873d5c356e15f3f2895856177e05742e1b0"
     },
     "corpus/pdfjs/issue3879r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "50de2f1186f3aaa5639bbda9e0f91220a4f2c08ee6fdacc62d7993fd2dac2f40"
     },
     "corpus/pdfjs/issue3885.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "b0b7e25da99e2d32a24a05fcda4d81026fd093ff0ad3a75a2356cf2c1fc52f4a"
     },
     "corpus/pdfjs/issue4061.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "52c96d3ac7d6c9f2a08022dc1de36aee3812753b5e7c522a64b8acd8400f72c1"
     },
     "corpus/pdfjs/issue4246.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "eb4b7f8cc7ae323aae080311c8afd639ae1cbefdd5cde3444f87a90ec2b3e11d"
     },
     "corpus/pdfjs/issue4304.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — upstream copy has since changed",
       "sha256": "9454e6e6801ebd5389b3262eaa1cae633ed7a412c7d0bbe280a404361548e017"
     },
     "corpus/pdfjs/issue4379.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "6a6c99d02d3e45bdf9ad0418a17e777e07003673b00d60ec872faca1382faca6"
     },
     "corpus/pdfjs/issue4436r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — upstream copy has since changed",
       "sha256": "7159051e6a93ff52315e45b54aa7e73371816fdc03de6fc6e8628c8445caaf27"
     },
     "corpus/pdfjs/issue4461.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "86f561b0b17a9487326fba41f717b7e085ff838bc101c07ebad929c29466f52e"
     },
     "corpus/pdfjs/issue4550.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "66208858de102cd00e82ab76069fcf005fd2ceaa7d68a45c62057f8aa153a733"
     },
     "corpus/pdfjs/issue4573.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "bad4083714fc1712492c05de2d1ee42aba48dff1ae09c05e79452a8c95ea913e"
     },
     "corpus/pdfjs/issue4575.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c6a9b71b4558344e708d5e04e156215fd5033e9088b4a87c72c5266f8b13196d"
     },
     "corpus/pdfjs/issue4630.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "b467ee69db8b7d16a9499965143d3599e9195e94a6544c96cdc01a62d3e17235"
     },
     "corpus/pdfjs/issue4650.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "da6ca7eb0fffc4b71266b16cc343b8f86be37d45b3801037d6ce25201255bcad"
     },
     "corpus/pdfjs/issue4665.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "05f4ae66465c3b72b2d5a645d901924b8c37c0d09ce84f3392dec3e2f01fe612"
     },
     "corpus/pdfjs/issue4668.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "42dc06ad6222984b5de6bca851ccd9125c26167d44fb7ec0c6773454d97b7051"
     },
     "corpus/pdfjs/issue4722.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "0a514189636e293a822b7bd6c3e6afa0b0b686cd87d3854a983fadef5e936b05"
     },
     "corpus/pdfjs/issue4800.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "334231b2c8969c2ee1cbb208d9451825034e7b8f8f902f2401242e23564c6957"
     },
     "corpus/pdfjs/issue4801.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "9c2ab488159b24ba5abf4269765313281a1d9bb7723001b90131423b9f8fa782"
     },
     "corpus/pdfjs/issue4875.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "af7509fa6526257e37ea0603844dae7ee0e2ca7aa1eee027ffa71b64c4fd2add"
     },
     "corpus/pdfjs/issue4881.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "05b708b0465d3e6489ceb0c4a3991d00f48839d427733171523ab8b8c5cccfd3"
     },
     "corpus/pdfjs/issue4909.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "013645b5df7a0265be2de8a141b29f298fb80bc4e7eb3309fd3b6ca3d993bb82"
     },
     "corpus/pdfjs/issue4934.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "a47ffda2901fcc102cf5cace080bef062ddd5d6d0c65a77449fb775e451a2b0a"
     },
     "corpus/pdfjs/issue5010.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "9810339aa21fcd2a7626bc9ff10d4139782e9cfca29a1615ba3ed0847b6e9008"
     },
     "corpus/pdfjs/issue5039.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "36a193e02e5aa530abe2f3e57606687775dc35ddfc85c0943f9e73d3dd321eea"
     },
     "corpus/pdfjs/issue5044.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "451f60bc1a822e1d67ddb6e18952fa69c6f7508901a8f1f351bcdfba1c9a093e"
     },
     "corpus/pdfjs/issue5070.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "bc4180ee2d25174fab1bb7a4bf15605a0c28fe87a51c20245d2181efda3a6a64"
     },
     "corpus/pdfjs/issue5084.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "0b03cfc542438510e9601532d75038523f1c94f389c63016f0806e692329d550"
     },
     "corpus/pdfjs/issue5138.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "7b3f664d77682c5d4a39f8d33ffbac60edd47f4226a2f195867332d5f4e2238f"
     },
     "corpus/pdfjs/issue5202.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "cbf504dced6920b7d01abfc0be2fadb782e8025fae8ce0a196d544b9353c079b"
     },
     "corpus/pdfjs/issue5238.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "d8d538d18acb38b6516c9e23c7e3bc4f24428f3bc40cba06b517ea9c6018145a"
     },
     "corpus/pdfjs/issue5244.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c58e678695d2e987491236c17e8152f403d885da27f0992f4f4b6a5202b3261c"
     },
     "corpus/pdfjs/issue5280.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "93f9373cf39a30201fc506741e55726441a99737242882d77bc7fc1e07a5e0b6"
     },
     "corpus/pdfjs/issue5291.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — upstream copy has since changed",
       "sha256": "f2c20d91f95a537284060a785400d5a79ccb2661a09344fd71ec29530f690a06"
     },
     "corpus/pdfjs/issue5334.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "a9d939b63e03a43d01c47efda339e7d7af5f2e8064b6ec7e93ddac6378011115"
     },
     "corpus/pdfjs/issue5421.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "2a72ed6ea260507a66ecbce9c10516c0dec4c64a8f0d934447a63f4b6c7e0be6"
     },
     "corpus/pdfjs/issue5470.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "82ddf33ee8a09085bdb59f890c007abcca93a21a0545a77a7cb2ece8ba2e4701"
     },
     "corpus/pdfjs/issue5475.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c50d4b50fa976b9001774f30d7d1f23a50169c9fd7e50dacc7022d7a0ea6a0ef"
     },
     "corpus/pdfjs/issue5481.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "95a47b344b6121e7e648cab049c9fabff020f01120920a6c6c48332bf4f7e75b"
     },
     "corpus/pdfjs/issue5501.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "e5f00402f0f35aa5556bc3ecb175fc9b7bc33d1f099d3c47b5442e377840a968"
     },
     "corpus/pdfjs/issue5540.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "6103400d6361905d55c62948b75c091542362c7cb575548accb1d5aef873241c"
     },
     "corpus/pdfjs/issue5549.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "f12be65798d8b65b68c27db08f89fe87ea506482309ba37aee837702a06410cd"
     },
     "corpus/pdfjs/issue5564_reduced.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "26ba0dcc4a2159d0769f795778a42e8955c14e2301fb553fa99c1d0982ac809c"
     },
     "corpus/pdfjs/issue5567.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "35431e73744702c34b0a4295867550dba020afca0c85c5d7d3100533d27abfdc"
     },
     "corpus/pdfjs/issue5599.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "7f5175fac61d7d25fdb5255d42c807cf88abd4755e29ce885b798cc013e016cb"
     },
     "corpus/pdfjs/issue5677.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "acbb02053be2446c6f3dac06661ad47d3399de6b5f268efe34e62884e1f3bf02"
     },
     "corpus/pdfjs/issue5701.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "a839951dd4a9da9f6e39aed5eae26ac15e3eed7eb30bf2a9d308f8b8ad01e8a9"
     },
     "corpus/pdfjs/issue5704.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "cb5ec13b7bfb3b86791f873314718c80fd06c0e101dc8be77c50322a3439394c"
     },
     "corpus/pdfjs/issue5734.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "4250ec156be135111c7df006de4e099f323882ccb3528c9dda7fb127c64d9877"
     },
     "corpus/pdfjs/issue5747.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "f7083a6dcef36f41e31eb7fa36a1798fa9b1552d9cd773b1ec05becb47552070"
     },
     "corpus/pdfjs/issue5751.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "d4ad464ce981087dd0b433d5fdc7604a1620f6819f31b2df03a193b86070557c"
     },
     "corpus/pdfjs/issue5801.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "34db8378a02d89415e6e995e5d3af54405be69a5989f24675071e8838e45b59c"
     },
     "corpus/pdfjs/issue5874.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "12db245aae3febaf5dda2214c2e9f4a489674c92a89fbcd4d7d6a05b14faff3a"
     },
     "corpus/pdfjs/issue5896.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "dd657f1723cf357b21427acd4de0dd028dddca0983ea882e9c0b60a4c1ffc932"
     },
     "corpus/pdfjs/issue5909.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown - REVIEW",
       "skip": [
         "process",
@@ -1517,31 +1702,36 @@
       "sha256": "5ba28ea9a084da5f0808642711775756de72df58d3905531d5f68075cdabdc0c"
     },
     "corpus/pdfjs/issue5954.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "d8a3d013a02af9ac09dae86b4deaf9ed0c9b575ea8954c8580df54552bc2a739"
     },
     "corpus/pdfjs/issue5972.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "89c19057e13bcb80a737b51807f5526b0a478a4cd73b691cf0559e395d164c18"
     },
     "corpus/pdfjs/issue5994.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "aa366a359bfca79f8b842d8e393ad299ff534ed5c057cd9c50899bc230eefe8b"
     },
     "corpus/pdfjs/issue6006.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "e5d66571ae5d5227ed188c5b016148f9055e29bb283cc062b14a15b77b98364e"
     },
     "corpus/pdfjs/issue6010_2.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "owner_password": "æøå",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
@@ -1549,43 +1739,50 @@
       "sha256": "53008dd89a45e313112ad6c6f17ade3e5c8f33f3106028a4e5b61f570b270ce9"
     },
     "corpus/pdfjs/issue6019.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c0576800e8eb53287ccd4e7fad2ab50a9f99e2f959ad6b3c0c08c445156d0f28"
     },
     "corpus/pdfjs/issue6068.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "7cfdedacb3caadfe7b3a3bb92c58231f9380cfebda9f3922fcb0eb9eaea3b56b"
     },
     "corpus/pdfjs/issue6069.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "40a5a310ed3abff8c69b1c0d6a2bb4bcf66cae563b2ec7e71a3e212184f4e25e"
     },
     "corpus/pdfjs/issue6081.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "b30ad6dce47693b1880f9119bddd6e57ba4880143199dc5ce3f19f0eb30d128b"
     },
     "corpus/pdfjs/issue6099.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "b9dd958825d1067edcf6a31414b3326e68909a05a172f3e53678383f17347862"
     },
     "corpus/pdfjs/issue6106.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "1000cab6419d42a4cb1c749dbe9adae4a81fc9fb79f2751600e6d8f6e7ac2bc4"
     },
     "corpus/pdfjs/issue6108.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "skip": [
         "edit"
@@ -1594,277 +1791,323 @@
       "sha256": "f9846b2beec7d75bec4c9dd0f1a9ff8f81915f87c1d122c551e7fe4f066d94bc"
     },
     "corpus/pdfjs/issue6113.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "f7ad8d0d3fa03a7b6e9746c3be3f5da8fece23f50f5d7e798d76951cc971de9e"
     },
     "corpus/pdfjs/issue6151.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "4f7be0c758eb539e7ac05cd35493198415c08f7dd7d2d334fd85bbe5934a0b13"
     },
     "corpus/pdfjs/issue6231_1.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "3f724f976fd3e83acbd3eee73f115b3611e1e3bb94a2c2c749d2702de1605e79"
     },
     "corpus/pdfjs/issue6296.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "ccd042e65c0ec22c87114702e4f318f45787a2bc44089056508babcc11803d44"
     },
     "corpus/pdfjs/issue6336.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "6cfc174e9393ca78b31e3cf5e469dd1cff60fc396f248347cffe909555ac0c4f"
     },
     "corpus/pdfjs/issue6387.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "b13c79f463e65a9bf1ed082145f32eb8f8a415f8190d7a0c90dafc8499de4e29"
     },
     "corpus/pdfjs/issue6410.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "474d50b159e3d6edd7358a20515bf4b951566eabcd89c68a0519d310770e1894"
     },
     "corpus/pdfjs/issue6413.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "ae2f2ffee7be973eb2be74bad9bf69517c2ca1241cc1cf1005b7f1006da42c01"
     },
     "corpus/pdfjs/issue6541.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "3a7f016c61917474cbaf9f5ea71d537c1d3ef1978990829075e1f5cadcfd8724"
     },
     "corpus/pdfjs/issue6612.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "2940293c5f32c23c1ccf5df34c44d226cff4e46c7ff633772b9f677d6c4e5738"
     },
     "corpus/pdfjs/issue6621.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "84f56091db5ea9021a65a4de5dfd6eda345d117daeeaf4fc75ba6ce2d8a20310"
     },
     "corpus/pdfjs/issue840.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "a06ddb834e9aec52ee0ec3837fa8afc296b8a411fa9f8217d555cf3597c52c5d"
     },
     "corpus/pdfjs/issue845r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "833d36af50d66869b1e25ab1f7333107bd6c2d53fa75e59aa02c749ca0d5662f"
     },
     "corpus/pdfjs/issue918.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "e1d8246bd5ea9f8f1eab8a58ef7cba661d455d9048a1082ad6ab328d921125b7"
     },
     "corpus/pdfjs/issue925.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "c6ffc08443e46174b5a8b2d71adc7ecc4454a7fabcedbf24cdfb9b96f1822603"
     },
     "corpus/pdfjs/javauninstall-7r.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "f16ac42ebbb209579fd7aa0e42aaef6fe7c48e3a7aa74eb0df4446c0ef179eec"
     },
     "corpus/pdfjs/mixedfonts.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "04f17b84112d8130d75601f8f9c2027481a19df595aacb753ca3f9f3b08b2350"
     },
     "corpus/pdfjs/mmtype1.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "6e08f0e3f64ed302f00572e2c4e391614df98cc9fa9d5e40538d495aa1a2063c"
     },
     "corpus/pdfjs/noembed-eucjp.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "cadd5b9a27e2de9a11a0cf29b20724cb0f63643387be5e690de35ca35922e45c"
     },
     "corpus/pdfjs/noembed-identity-2.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "457ee3ddbb36b2c42ac3f7bad8d595694d606a31cf0e925cff53c22969eb731f"
     },
     "corpus/pdfjs/noembed-identity.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "b9bdcc78758415331a3f94c0d05a45fd605c462f907da38ec1e79be1fe37517b"
     },
     "corpus/pdfjs/noembed-jis7.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "812493361351a703b3a1c34830115df762024229aac8e41d9a16b8a075761691"
     },
     "corpus/pdfjs/noembed-sjis.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "13fd4811beaf0390d313847e23839db237d1fb65efc839f6d9f534ea52311c95"
     },
     "corpus/pdfjs/openoffice.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "5c9841d641406b074f16087442a62f652057a607364b7aa82f8b4851f7e2acfc"
     },
     "corpus/pdfjs/pdfjsbad1586.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "4625f06d2a8796cb76999b5d450cf41bbb41b00ffe0196a9954b20bfa7d916fe"
     },
     "corpus/pdfjs/pdfkit_compressed.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "920b8491769e72567e5c40ef9249f1e9fccacad244a82264c28b97fc97d5ef73"
     },
     "corpus/pdfjs/personwithdog.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "f23b044b9a983f07690400375ae41aa346a93759a701009b633bd45d3d3fa2c8"
     },
     "corpus/pdfjs/pr4922.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "b4172e31f3cea17853a143865334c5e54e1bf04a075378be48f4f57534d5bfd9"
     },
     "corpus/pdfjs/rotated.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "08c31db1ebd2345d1dcdcd3ee2baffe47845db76e9911a823ad9ed8638b5a294"
     },
     "corpus/pdfjs/rotation.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "5087c2afe763d145537d652bb3bc6c321ace3a267b2679ae2c178add3ba7f1d9"
     },
     "corpus/pdfjs/scan-bad.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "d40f31f182cf254ab134826d379875acacb1f7b48bf1a57bce2e30b38d16628e"
     },
     "corpus/pdfjs/shading_extend.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "f71e22d120201b289e5fad9609060bb06611db387921e946878aef35db079774"
     },
     "corpus/pdfjs/simpletype3font.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — upstream copy has since changed",
       "sha256": "4857f4f412aae1ec3ac664ca2b5475b13dc89c30333558fcfe105d342b506b4f"
     },
     "corpus/pdfjs/sizes.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "5fa399fa5e639c7d5ca03ab1f50047c4f7f1c218043ffda3eb76e99cc36437f1"
     },
     "corpus/pdfjs/smaskdim.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "e03b8359f8b64e1a18a795aa9376bc98d98dca89a828ec20c49a4ac2f36a3d82"
     },
     "corpus/pdfjs/tensor-allflags-withfunction.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "d0167f51046dc315aeb6be6c48ae874c776f532cbc1b8f4d64efd6ad1215f480"
     },
     "corpus/pdfjs/tracemonkey.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "3662ff519e485810520552bf301d8c3b2b917fd2f83303f4965d7abed367e113"
     },
     "corpus/pdfjs/transparency_group.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "029dd50635adee0711836095b76aab62226ca8731f6642a9454b25e2668226dd"
     },
     "corpus/pdfjs/type4psfunc.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "fc69eb3c8e7c605522ad331c9e1f7caa48ed263bfcaa0ff3232b44e15d2859e0"
     },
     "corpus/pdfjs/vertical.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "514511143db12309893fb69cdf98c76f2361c20da394f79fdff2c119ed7a4393"
     },
     "corpus/pdfjs/xref_command_missing.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "88d3905774607b3f529e369db122b2d14051417993c9a704472c91c6702ccff6"
     },
     "corpus/pdfjs/zerowidthline.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "See SOURCES.md",
       "source": "mozilla/pdf.js test suite — verified byte-identical to upstream",
       "sha256": "cc3ee77c644b2824af036500a2c69955d27869ea03773eeebe75ab4dc142ac3d"
     },
     "corpus/pdftest2.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "dc2fed6e08f60f68cd6adefdfb102929b7112220c609e7781f2fb9d76ece6178"
     },
     "corpus/request_for_taxpayer.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "dc8f49b5abbe28bca378cbc25230a808e00c830719a94dde6410d331812712ce"
     },
     "corpus/s2010135x20500290.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "546343b209f966fd4790a4c908a6422d7c3029ec381d9cdaef34ccca895b30df"
     },
     "corpus/sample-encrypted-rc4-40-rev3.pdf": {
-      "category": "encrypted",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "skip": [
         "save",
@@ -1876,13 +2119,15 @@
       "sha256": "52a47b5525f0913af75264260c0f5b9965eabf1f86c78ef39ba6056d1f4f80b6"
     },
     "corpus/sample.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "4c76b7a367c810aa717ec49caf5bd8ee3edeefd197241f6bd3698ed5de2c4ddc"
     },
     "corpus/statistika-kriminalita-2019.pdf": {
-      "category": "valid",
+      "type": "pdf",
+      "status": "valid",
       "license": "unknown",
       "source": "unknown - REVIEW",
       "sha256": "3c1f34d937d56013752c55e7efae3f07ab3c0bff554de730b8ba2983322c9cf5"

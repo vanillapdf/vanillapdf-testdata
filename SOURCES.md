@@ -74,14 +74,25 @@ Internal, distributable with the project.
 
 ### `corpus/certificates/`
 
-6 generated test signing certificates (`.pfx`). Internal test fixtures only —
-not real credentials, no trust path, safe to commit.
+One generated test certificate, `TestUser3.pfx`. Internal fixture only — not a
+real credential, no trust path, safe to commit.
 
-`TestUser3.pfx` previously lived in the core repository at
-`scripts/TestUser3.pfx`. It was moved here so that every path in `manifest.json`
-resolves inside this checkout; bindings that never clone the core repo need it
-to exercise `corpus/certificate_encrypted_s4.pdf` and `_s5.pdf`. The core repo
-copy should be removed as part of the migration.
+It lives here because the manifest references it: it decrypts
+`corpus/certificate_encrypted_s4.pdf` and `_s5.pdf`, and is
+`config.signing_certificate`. Bindings that never clone the core repository need
+it to exercise those two fixtures. It is `type: certificate`, so test enumeration skips it — an input to tests,
+not a test itself.
+
+The five `Test_*.pfx` signing certificates deliberately **do not** live here.
+Nothing in the manifest references them; they are build inputs to the core
+repository, globbed at configure time by `generate_test_certificates.cmake` to
+compile `test_certificates.h`, and read directly by
+`signature-interop-check.yml`. Shipping them as corpus data would have made
+`vanillapdf.unittest` unable to configure without fetching a release asset to
+reach 9 KB of certificates. They stay in the core repo at `test/certificates/`.
+
+The distinction is worth preserving: this repository holds what the library
+**reads as input**. Keys the build **signs with** are not corpus data.
 
 ## Personal data review
 
@@ -143,10 +154,9 @@ alone is not sufficient: the harness runs one ctest per file across every build
 configuration, so a document that merely duplicates existing coverage costs
 runtime and returns nothing. Such files are dropped rather than promoted.
 
-To promote: move the file, set `category` (`valid`, or `encrypted` if it carries
-passwords), remove `expect` and `tested`, and record in `note` what unique
-coverage justified it — otherwise the reasoning is lost and the question gets
-reopened in a year.
+To promote: move the file into `corpus/`, set `status` to `valid`, remove
+`expect`, and record in `note` what unique coverage justified it — otherwise the
+reasoning is lost and the question gets reopened in a year.
 
 ## Review checklist — root-level corpus (37 files)
 

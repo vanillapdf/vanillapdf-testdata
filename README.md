@@ -16,19 +16,19 @@ fixtures along with it.
 
 ## Layout
 
-299 fixtures, 110 MB.
+294 fixtures, 110 MB.
 
 ```
-corpus/    (279)  Actively-tested fixtures. Consumed by CI across all bindings.
+corpus/    (274)  Actively-tested fixtures. Consumed by CI across all bindings.
   custom/         vanillapdf-authored samples (encryption, signing, minimal)
   pdfjs/          Files originating from the Mozilla pdf.js test suite
   pdf-association/pdf20examples/   PDF 2.0 conformance examples
-  certificates/   Test signing certificates (.pfx)
+  certificates/   TestUser3.pfx — decrypts two fixtures; not a test itself
 broken/      (8)  Fixtures the parser cannot yet handle. NOT tested.
                   Staging — see Promotion in SOURCES.md.
 analysis/   (12)  Large real-world documents for investigation and profiling.
                   NOT tested. Also staging.
-manifest.json     Per-file expectations: category, passwords, skip flags, source.
+manifest.json     Per-file contract: type, status, passwords, skip flags, source.
 SOURCES.md        Provenance, licensing, personal-data review, promotion rule.
 scripts/          Validation and release tooling.
 ```
@@ -43,7 +43,8 @@ Every fixture has an entry keyed by its **repo-relative path**:
 
 ```json
 "corpus/custom/example_128-aes.pdf": {
-  "category": "encrypted",
+  "type": "pdf",
+  "status": "valid",
   "user_password": "test",
   "owner_password": "testik",
   "source": "vanillapdf internal",
@@ -53,21 +54,29 @@ Every fixture has an entry keyed by its **repo-relative path**:
 
 | Field | Meaning |
 |-------|---------|
-| `category` | `valid` \| `encrypted` \| `certificate` \| `broken` \| `analysis` |
+| `type` | What the artifact is: `pdf` \| `certificate` |
+| `status` | Whether the library handles it: `valid` \| `broken` |
 | `user_password` / `owner_password` | Passwords for encrypted files |
 | `certificate` | Repo-relative path to the PKCS#12 file for certificate-encrypted files |
 | `skip` | Capabilities to skip: `process`, `save`, `edit`, `incremental_save` |
-| `expect` | For `broken` / `analysis`: expected failure mode (`unknown` until analysed) |
-| `tested` | `false` for `broken` and `analysis` files (never executed by CI) |
+| `expect` | For `status: broken`: expected failure mode (`unknown` until analysed) |
 | `sha256` | Digest of the fixture; `--strict` verifies it |
 | `note` | Why the fixture exists, when that is not obvious |
 | `source` / `license` | Provenance — see `SOURCES.md` |
 
-Keys are full paths rather than bare filenames on purpose. The directory carries
-meaning — it decides whether a fixture is tested — so the same basename can
-legitimately exist in both `corpus/` and `broken/`, which a basename-keyed config
-cannot express. Paths also make promotion a visible change rather than a silent
-one: a file graduating from `broken/` to `corpus/` changes its key.
+`type` and `status` are deliberately orthogonal, and neither encodes encryption:
+a password-protected PDF is `valid` and simply carries `user_password` /
+`owner_password`. Making "encrypted" a category would force a false choice, since
+such a file is both.
+
+**Enumerate tests as `type == "pdf" and status == "valid"`.** Certificates fall
+out by type, staging by status — no directory assumptions, no special cases.
+
+Keys are full paths rather than bare filenames on purpose. The directory records
+why a fixture is kept, so the same basename can legitimately exist in both
+`corpus/` and `broken/`, which a basename-keyed config cannot express. Paths also
+make promotion a visible change rather than a silent one: a file graduating from
+`broken/` to `corpus/` changes its key.
 
 **Every path in this file — including `config.merge_file` and
 `config.signing_certificate` — resolves against the root of this repository.**
@@ -132,8 +141,7 @@ Consumers should offer an override pointing at an existing local checkout
 rather than forcing a fetch.
 
 **Bindings** — read `manifest.json`, resolve each key against the checkout root,
-and drive the file according to its `category`. Skip anything with
-`"tested": false`.
+and drive each fixture according to its fields.
 
 ## Validating
 
