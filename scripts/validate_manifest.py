@@ -94,6 +94,13 @@ def validate(manifest: dict, root: Path, strict: bool, release_tag: str | None) 
     for path, entry in sorted(files.items()):
         where = f"{path}:"
 
+        # ASCII-only names keep the archive free of any encoding the extractor
+        # has to know: no UTF-8 tar headers, no per-consumer locale. A non-ASCII
+        # fixture belongs elsewhere, not in a corpus consumers unpack blind.
+        if not path.isascii():
+            errors.append(f"{where} non-ASCII characters in path; fixture names "
+                          "must be ASCII")
+
         if not isinstance(entry, dict):
             errors.append(f"{where} entry is not an object")
             continue

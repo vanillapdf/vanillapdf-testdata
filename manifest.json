@@ -288,14 +288,6 @@
       "sha256": "3cce95490bcc42cdeb27fae18f94cb9aec4e9b4d91eef7b4de7f653c80eeebde",
       "note": "Decrypts corpus/certificate_encrypted_s4.pdf and _s5.pdf, and is config.signing_certificate. An input to tests, not a test itself."
     },
-    "corpus/chinese_names_中文的名字-2.pdf": {
-      "type": "pdf",
-      "status": "valid",
-      "license": "unknown",
-      "source": "unknown - collected regression fixture",
-      "note": "Promoted from broken/. The only fixture with a non-ASCII filename, covering path encoding across the C API boundary.",
-      "sha256": "c3ba5d1ffc9abf08b66f5c4ac49a77a8a77232b84850013af1991a5aea4436e1"
-    },
     "corpus/custom/Granizo-signed.PDF": {
       "type": "pdf",
       "status": "valid",
