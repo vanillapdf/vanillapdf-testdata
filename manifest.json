@@ -360,6 +360,16 @@
       "user_password": "user",
       "sha256": "af46176edbbd19b9f1859956ccd0a0751c8f0ca9bded413713455e1bf0a6c952"
     },
+    "corpus/custom/sample-encrypted-aes-256-rev6.pdf": {
+      "type": "pdf",
+      "status": "valid",
+      "license": "internal",
+      "owner_password": "owner",
+      "source": "vanillapdf internal",
+      "user_password": "user",
+      "note": "AES-256 (encryption revision 6). Exercises the R6 SHA-2 hash round-termination boundary (vanillapdf #457).",
+      "sha256": "5b79edb35af2cd33bdbdaf24a43807dcf1d5d9aa5fdc129dda6d7cbc9c2ec2d9"
+    },
     "corpus/custom/sample-encrypted-aes-40-rev2.pdf": {
       "type": "pdf",
       "status": "valid",
