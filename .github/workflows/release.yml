@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  id-token: write      # Sigstore keyless signing for provenance
+  attestations: write  # record the attestation against the repo
 
 jobs:
   publish:
@@ -25,6 +27,17 @@ jobs:
 
       - name: Build archives
         run: python scripts/build_release.py --summary "$GITHUB_STEP_SUMMARY"
+
+      # Cross-platform reproducibility does not hold (zlib-build dependent), so
+      # signed provenance is the origin proof consumers otherwise lack.
+      - name: Attest build provenance
+        uses: actions/attest-build-provenance@0f67c3f4856b2e3261c31976d6725780e5e4c373  # v4.1.1
+        with:
+          subject-path: |
+            dist/corpus.tar.gz
+            dist/broken.tar.gz
+            dist/analysis.tar.gz
+            dist/manifest.json
 
       - name: Publish release
         env:
@@ -48,6 +61,10 @@ jobs:
           Verify with `sha256sum -c SHA256SUMS`, and pin the hash via
           `FetchContent_Declare(... URL_HASH SHA256=...)` so a corpus change
           can never silently alter downstream test results.
+
+          Provenance is attested. Confirm an asset came from this repo's release
+          workflow with:
+          `gh attestation verify corpus.tar.gz --repo ${{ github.repository }}`
 
           Note that `.tar.gz` hashes are reproducible per zlib build, not across
           platforms — a local rebuild may differ. Per-fixture SHA256 in the

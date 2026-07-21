@@ -117,6 +117,14 @@ endif()
 Pin `URL_HASH`. Without it a re-cut release changes the fixtures underneath a
 consumer with no signal; with it, CMake refuses to build instead.
 
+Each release asset carries signed build provenance. Since the archives are not
+reproducible across zlib builds, this is the origin proof a rebuild cannot give.
+Verify before bumping a pin:
+
+```bash
+gh attestation verify corpus.tar.gz --repo vanillapdf/vanillapdf-testdata
+```
+
 Every archive ships `manifest.json` beside its data directory, so after
 extraction manifest keys resolve **directly** against the root:
 
