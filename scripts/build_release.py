@@ -94,7 +94,10 @@ def build(directory: Path, out: Path, manifest: Path) -> Asset:
     with (
         open(out, "wb") as fh,
         gzip.GzipFile(filename="", fileobj=fh, mode="wb", compresslevel=9, mtime=0) as gz,
-        tarfile.open(fileobj=gz, mode="w", format=tarfile.GNU_FORMAT) as tar,
+        # PAX, not GNU: it records non-ASCII names in a UTF-8 extended header, so
+        # any libarchive extractor (CMake FetchContent included) decodes them
+        # correctly on any code page. Emitted only when needed; still reproducible.
+        tarfile.open(fileobj=gz, mode="w", format=tarfile.PAX_FORMAT, encoding="utf-8") as tar,
     ):
         tar.add(manifest, arcname=manifest.name, filter=_normalise)
         tar.add(directory, arcname=directory.name, filter=_normalise)
