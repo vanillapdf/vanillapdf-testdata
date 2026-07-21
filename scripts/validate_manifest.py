@@ -17,6 +17,12 @@ import json
 import sys
 from pathlib import Path
 
+# The manifest layout consumers parse against. A release tag's major must equal
+# this (see --release-tag): within a major the structure is stable, so a harness
+# written against vN.x keeps working across every vN.y. Bump both together only
+# when the layout below changes in a way that can break a consumer.
+SCHEMA_VERSION = 1
+
 DATA_DIRS = ("corpus", "broken", "analysis")
 # What the artifact is, and what state it is in — deliberately orthogonal.
 # Encryption is not a type or a status: it is expressed by the password fields.
@@ -52,10 +58,34 @@ def discover(root: Path) -> set:
     return found
 
 
-def validate(manifest: dict, root: Path, strict: bool) -> list:
+def check_release_tag(tag: str, schema_version: int) -> str | None:
+    """The tag major is the schema generation; the two may never diverge.
+
+    Returns an error string, or None when the tag is well-formed and agrees.
+    """
+    body = tag[1:] if tag.startswith("v") else tag
+    parts = body.split(".")
+    if len(parts) != 2 or not all(p.isdigit() for p in parts):
+        return f"release tag {tag!r} is not of the form vMAJOR.MINOR"
+    major = int(parts[0])
+    if major != schema_version:
+        return (f"release tag {tag!r} major {major} != manifest "
+                f"$schema_version {schema_version}")
+    return None
+
+
+def validate(manifest: dict, root: Path, strict: bool, release_tag: str | None) -> list:
     errors = []
     warnings = []
     on_disk = discover(root)
+
+    version = manifest.get("$schema_version")
+    if version != SCHEMA_VERSION:
+        errors.append(f"$schema_version is {version!r}, expected {SCHEMA_VERSION}")
+    if release_tag:
+        tag_error = check_release_tag(release_tag, version)
+        if tag_error:
+            errors.append(tag_error)
 
     files = manifest.get("files")
     if not isinstance(files, dict):
@@ -141,10 +171,12 @@ def main() -> int:
                         help="repository root (default: current directory)")
     parser.add_argument("--strict", action="store_true",
                         help="require every file on disk and verify its sha256")
+    parser.add_argument("--release-tag",
+                        help="assert a vMAJOR.MINOR tag's major matches the schema")
     args = parser.parse_args()
 
     manifest = json.loads((args.root / "manifest.json").read_text(encoding="utf-8"))
-    errors = validate(manifest, args.root, args.strict)
+    errors = validate(manifest, args.root, args.strict, args.release_tag)
 
     if errors:
         for line in errors:

@@ -107,7 +107,7 @@ rather than the whole 110 MB repository.
 if(VANILLAPDF_ENABLE_TESTS)
   include(FetchContent)
   FetchContent_Declare(vanillapdf_testdata
-    URL      https://github.com/vanillapdf/vanillapdf-testdata/releases/download/v1/corpus.tar.gz
+    URL      https://github.com/vanillapdf/vanillapdf-testdata/releases/download/v1.0/corpus.tar.gz
     URL_HASH SHA256=<copy from that release's SHA256SUMS>
   )
   FetchContent_MakeAvailable(vanillapdf_testdata)
@@ -181,5 +181,16 @@ carries its own `sha256` in the manifest, which is stable everywhere and is what
 
 ## Versioning
 
-Tagged `vN`. Consumers pin a tag and its asset hash, and bump on purpose, so a
-corpus change never silently alters a downstream project's test results.
+Tagged `vMAJOR.MINOR`. Consumers pin a tag and its asset hash, and bump on
+purpose, so a corpus change never silently alters a downstream project's test
+results.
+
+- **MAJOR** is the manifest schema generation — it equals `$schema_version` in
+  `manifest.json`, and a release whose tag major disagrees is rejected. Within a
+  major the layout is stable, so a harness written against `v1.x` keeps working
+  across every `v1.y`. Bumping it signals the structure changed and consumer
+  parsing may need updating.
+- **MINOR** is the corpus content revision: fixtures added, promoted or dropped,
+  expectations changed. Re-pin `URL_HASH`; no consumer code change.
+
+Pre-alpha, so the schema still sits at `v1`.

@@ -1,5 +1,5 @@
 {
-  "$schema_version": 2,
+  "$schema_version": 1,
   "config": {
     "merge_file": "corpus/19005-1_FAQ.PDF",
     "signing_certificate": "corpus/certificates/TestUser3.pfx"

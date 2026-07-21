@@ -18,9 +18,10 @@ jobs:
         with:
           python-version: '3.14'
 
-      # A release must not ship a corpus the manifest disagrees with.
+      # A release must not ship a corpus the manifest disagrees with, nor a tag
+      # whose major disagrees with the manifest schema generation.
       - name: Validate manifest
-        run: python scripts/validate_manifest.py --strict
+        run: python scripts/validate_manifest.py --strict --release-tag "${{ github.ref_name }}"
 
       - name: Build archives
         run: python scripts/build_release.py --summary "$GITHUB_STEP_SUMMARY"
