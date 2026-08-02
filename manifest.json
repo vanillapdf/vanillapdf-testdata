@@ -396,6 +396,14 @@
       "source": "vanillapdf internal",
       "sha256": "ef5577ac512b80c7d0daccf7ed68cd4d76ed66cd4002f07b33c9853763e856ed"
     },
+    "corpus/custom/xref_stream_wide_generation.pdf": {
+      "type": "pdf",
+      "status": "valid",
+      "license": "internal",
+      "source": "vanillapdf internal",
+      "sha256": "d702aa2b2d1738cc51fe729ac95f59125ee195d759bebab747a86f09e2163412",
+      "note": "Cross-reference stream declaring /W [1 4 4]: the free-list head stores the never-reuse generation as 0xFFFFFFFF across the full 4-byte width. Regression fixture for the wide-generation clamp in ParseXrefStream."
+    },
     "corpus/example.pdf": {
       "type": "pdf",
       "status": "valid",
