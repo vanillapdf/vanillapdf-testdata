@@ -26,3 +26,6 @@ scratch/
 # Outputs produced by consumers running against this corpus
 out/
 *.out.pdf
+
+# Release archives built by scripts/build_release.py
+dist/
