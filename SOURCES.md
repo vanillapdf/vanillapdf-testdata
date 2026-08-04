@@ -69,7 +69,8 @@ Terms still to be transcribed here, but the origin is unambiguous.
 
 ### `corpus/custom/`
 
-12 files authored for Vanilla.PDF (encryption / signing / minimal samples).
+14 files authored for Vanilla.PDF (encryption / signing / minimal /
+regression samples).
 Internal, distributable with the project.
 
 ### `corpus/certificates/`
