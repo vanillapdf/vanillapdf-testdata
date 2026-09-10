@@ -343,6 +343,38 @@
       "source": "vanillapdf internal",
       "sha256": "80d54e0ee1fefef45c8e70a9aba516c081db684cc8edcfc6dc0f549be82d4d5a"
     },
+    "corpus/custom/objstm_cross_stream_reference.pdf": {
+      "type": "pdf",
+      "status": "valid",
+      "license": "internal",
+      "source": "vanillapdf internal",
+      "sha256": "eeb47ea21a06308681cf3f64c3e02f67affc362faf383ea53ac1a515f7eaeaa2",
+      "note": "Page tree root in one object stream and its only page in another, so /Kids points forward across the streams and /Parent points back. A healthy document, kept as the guard against the object stream cycle detection rejecting legitimate cross-stream references."
+    },
+    "corpus/custom/objstm_mutual_containment.pdf": {
+      "type": "pdf",
+      "status": "valid",
+      "license": "internal",
+      "skip": [
+        "save",
+        "edit"
+      ],
+      "source": "vanillapdf internal",
+      "sha256": "d3aa52b921ea9ccff456a601cde21b080a415a9522056507311c02fbc8964d25",
+      "note": "Two object streams whose cross-reference entries place each one inside the other. Initializing either required initializing the other, which recursed until the stack was exhausted. Regression fixture for the cycle guard in File::InitializeObjectStream. Saving and editing are skipped: the writer cannot serialize the document while the entries inside the unreachable object stream resolve to null."
+    },
+    "corpus/custom/objstm_self_reference.pdf": {
+      "type": "pdf",
+      "status": "valid",
+      "license": "internal",
+      "skip": [
+        "save",
+        "edit"
+      ],
+      "source": "vanillapdf internal",
+      "sha256": "02f7682722500b7368061a339072cfcf2d0c43661b0608dcce63051ccd4c300f",
+      "note": "Cross-reference stream whose entry for the object stream itself is a type 2 entry pointing into that same stream, so initializing it required initializing itself and recursed until the stack was exhausted. Regression fixture for the cycle guard in File::InitializeObjectStream. Saving and editing are skipped: the writer cannot serialize the document while the entries inside the unreachable object stream resolve to null."
+    },
     "corpus/custom/sample-encrypted-aes-128-rev3.pdf": {
       "type": "pdf",
       "status": "valid",
