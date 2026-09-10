@@ -16,10 +16,10 @@ fixtures along with it.
 
 ## Layout
 
-295 fixtures, 110 MB.
+298 fixtures, 110 MB.
 
 ```
-corpus/    (275)  Actively-tested fixtures. Consumed by CI across all bindings.
+corpus/    (278)  Actively-tested fixtures. Consumed by CI across all bindings.
   custom/         vanillapdf-authored samples (encryption, signing, minimal)
   pdfjs/          Files originating from the Mozilla pdf.js test suite
   pdf-association/pdf20examples/   PDF 2.0 conformance examples
