@@ -269,24 +269,24 @@
       "status": "valid",
       "certificate": "corpus/certificates/TestUser3.pfx",
       "license": "unknown",
-      "source": "unknown - REVIEW",
-      "sha256": "3e6ae617b537161770e37fb120b550bacef3dd523ccdd2d6dc2353bd6ae8f5b8"
+      "source": "iTextSharp 5.5.7 output; Recipients envelope re-wrapped from RC2-CBC to AES-256-CBC by vanillapdf",
+      "sha256": "0db38f65d5d3a21920adbc6c966da5b0945711cd9334853aadbbeda2932b5d95"
     },
     "corpus/certificate_encrypted_s5.pdf": {
       "type": "pdf",
       "status": "valid",
       "certificate": "corpus/certificates/TestUser3.pfx",
       "license": "unknown",
-      "source": "unknown - REVIEW",
-      "sha256": "78f35639c02166ffa6bd2f122078316f56a3f7702cf17046700c3fe974ec7b6f"
+      "source": "iTextSharp 5.5.7 output; Recipients envelope re-wrapped from RC2-CBC to AES-256-CBC by vanillapdf",
+      "sha256": "347ebfc19bb09b76fc591c802606a7c6b47275076f0085716a59f6864322e498"
     },
     "corpus/certificates/TestUser3.pfx": {
       "type": "certificate",
       "status": "valid",
       "license": "internal",
       "source": "vanillapdf internal (generated test certs)",
-      "sha256": "3cce95490bcc42cdeb27fae18f94cb9aec4e9b4d91eef7b4de7f653c80eeebde",
-      "note": "Decrypts corpus/certificate_encrypted_s4.pdf and _s5.pdf, and is config.signing_certificate. An input to tests, not a test itself."
+      "sha256": "04b72fdcbd81c8e9b2401b05237b9fa8b60cb38b6e714f2877aa102871f2612a",
+      "note": "Decrypts corpus/certificate_encrypted_s4.pdf and _s5.pdf, and is config.signing_certificate. An input to tests, not a test itself. Protected with PBES2/AES-256-CBC and an empty password."
     },
     "corpus/custom/Granizo-signed.PDF": {
       "type": "pdf",
