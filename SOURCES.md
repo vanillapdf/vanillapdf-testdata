@@ -84,6 +84,15 @@ It lives here because the manifest references it: it decrypts
 it to exercise those two fixtures. It is `type: certificate`, so test enumeration skips it — an input to tests,
 not a test itself.
 
+None of the three use RC2, which OpenSSL 3 serves only from its legacy
+provider. `TestUser3.pfx` was re-exported with PBES2/AES-256-CBC and a SHA-256
+MAC, keeping its key, certificate and empty password. The two PDFs keep their
+iTextSharp 5.5.7 layout, seed, permissions and content; only their Recipients
+envelope was re-wrapped from RC2-CBC to AES-256-CBC, and the content stream and
+Info strings re-encrypted under the file key that envelope derives. Existing
+signatures by `CN=TestUser3` (such as `Granizo-signed.PDF`) still verify, since
+the certificate did not change.
+
 The five `Test_*.pfx` signing certificates deliberately **do not** live here.
 Nothing in the manifest references them; they are build inputs to the core
 repository, globbed at configure time by `generate_test_certificates.cmake` to
